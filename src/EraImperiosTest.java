@@ -66,6 +66,58 @@ public class EraImperiosTest {
     // Test the attacking process
     @Test public void simpleAttackTest() {
         infantry.attack(archer);
+        assertEquals(31.4, archer.getHP(), 0.01);
 
+        archer.attack(cavalry);
+        assertEquals(145, cavalry.getHP(), 0.01);
+
+        monk.attack(siege);
+        assertEquals(75, siege.getHP(), 0.01);
+
+        infantry.attack(monk);
+        assertEquals(0, monk.getHP(), 0.01);
+
+        archer.attack(villager);
+        assertEquals(17.5, villager.getHP(), 0.01);
+
+        castle.attack(barracks);
+        assertEquals(1192.3, barracks.getHP(), 0.01);
+
+        villager.attack(infantry);
+        assertEquals(37.6, infantry.getHP(), 0.01);
+
+        // Monk shouldn't heal when dead
+        monk.attack(infantry);
+        assertEquals(37.6, infantry.getHP(), 0.01);
+    }
+
+    // Max HP test
+    @Test public void maxHPTest() {
+        AbstractAttaker superMonk = new Monk(25, 5000);
+
+        // Max HP for archer
+        superMonk.attack(archer);
+        assertEquals(70, archer.getHP(), 0.01);
+
+        // Max HP for infantry
+        superMonk.attack(infantry);
+        assertEquals(80, infantry.getHP(), 0.01);
+
+        // Max HP for cavalry
+        superMonk.attack(cavalry);
+        assertEquals(300, cavalry.getHP(), 0.01);
+
+        // Max HP for monk
+        superMonk.attack(monk);
+        assertEquals(50, monk.getHP(), 0.01);
+
+        // Max HP for villager
+        superMonk.attack(villager);
+        assertEquals(50, villager.getHP(), 0.01);
+
+        // Change the starting HP
+        AbstractAttackable newHPVillager = new Villager(2000, 10);
+        superMonk.attack(newHPVillager);
+        assertEquals(4000, newHPVillager.getHP(), 0.01);
     }
 }

@@ -1,6 +1,7 @@
 public abstract class AbstractAttackable implements IEnte {
     protected float hp;
     protected boolean isAlive;
+    protected float maxHp;
 
     // Getter for HP
     @Override
