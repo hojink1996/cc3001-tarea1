@@ -30,29 +30,29 @@ public class EraImperiosTest {
 
     // Test the Default Creation HP
     @Test public void defaultHPTest() {
-        assertEquals(40, infantry.getHP());
-        assertEquals(35, archer.getHP());
-        assertEquals(150, cavalry.getHP());
-        assertEquals(75, siege.getHP());
-        assertEquals(25, monk.getHP());
-        assertEquals(25, villager.getHP());
-        assertEquals(1200, barracks.getHP());
-        assertEquals(4800, castle.getHP());
+        assertEquals(40, infantry.getHP(), 0.01);
+        assertEquals(35, archer.getHP(), 0.01);
+        assertEquals(150, cavalry.getHP(), 0.01);
+        assertEquals(75, siege.getHP(), 0.01);
+        assertEquals(25, monk.getHP(), 0.01);
+        assertEquals(25, villager.getHP(), 0.01);
+        assertEquals(1200, barracks.getHP(), 0.01);
+        assertEquals(4800, castle.getHP(), 0.01);
     }
 
     // Test the Default Creation Attack
     @Test public void defaultAttackTest() {
-        assertEquals(3, infantry.getAttack());
-        assertEquals(5, archer.getAttack());
-        assertEquals(8, cavalry.getAttack());
-        assertEquals(50, siege.getAttack());
-        assertEquals(5, monk.getAttack());
-        assertEquals(3, villager.getAttack());
-        assertEquals(11, castle.getAttack());
+        assertEquals(3, infantry.getAttack(), 0.01);
+        assertEquals(5, archer.getAttack(), 0.01);
+        assertEquals(8, cavalry.getAttack(), 0.01);
+        assertEquals(50, siege.getAttack(), 0.01);
+        assertEquals(5, monk.getAttack(), 0.01);
+        assertEquals(3, villager.getAttack(), 0.01);
+        assertEquals(11, castle.getAttack(), 0.01);
     }
 
     // Test the alive status
-    @Test public void defaultAlive() {
+    @Test public void defaultAliveTest() {
         assertTrue(infantry.isAlive());
         assertTrue(archer.isAlive());
         assertTrue(cavalry.isAlive());
@@ -61,5 +61,11 @@ public class EraImperiosTest {
         assertTrue(villager.isAlive());
         assertTrue(barracks.isAlive());
         assertTrue(castle.isAlive());
+    }
+
+    // Test the attacking process
+    @Test public void simpleAttackTest() {
+        infantry.attack(archer);
+
     }
 }

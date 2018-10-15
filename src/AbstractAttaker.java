@@ -1,8 +1,8 @@
 public abstract class AbstractAttaker extends AbstractAttackable {
-    protected int attack;
+    protected float attack;
 
     // Getter for attack
-    public int getAttack()
+    public float getAttack()
     {
         return attack;
     }
