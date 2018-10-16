@@ -235,8 +235,7 @@ public class EraImperiosTest {
         assertEquals(1100, barracks.getHP(), 0.01);
     }
 
-
-    // Test cavalry attacking
+    // Test monk attacking
     @Test public void monkAttackTest() {
         // Attack infantry
         monk.attack(infantry);
@@ -270,6 +269,42 @@ public class EraImperiosTest {
         monk.attack(barracks);
         assertEquals(1200, barracks.getHP(), 0.01);
     }
+
+    // Test villager attacking
+    @Test public void villagerAttackTest() {
+        // Attack infantry
+        villager.attack(infantry);
+        assertEquals(37.6, infantry.getHP(), 0.01);
+
+        // Attack archer
+        villager.attack(archer);
+        assertEquals(32, archer.getHP(), 0.01);
+
+        // Attack cavalry
+        villager.attack(cavalry);
+        assertEquals(148.5, cavalry.getHP(), 0.01);
+
+        // Attack siege
+        villager.attack(siege);
+        assertEquals(76.5, siege.getHP(), 0.01);
+
+        // Attack monk
+        villager.attack(monk);
+        assertEquals(25, monk.getHP(), 0.01);
+
+        // Attack villager
+        villager.attack(villager);
+        assertEquals(22, villager.getHP(), 0.01);
+
+        // Attack castle (can't heal over max health)
+        villager.attack(castle);
+        assertEquals(4800, castle.getHP(), 0.01);
+
+        // Attack barracks (can't heal over max health)
+        villager.attack(barracks);
+        assertEquals(1200, barracks.getHP(), 0.01);
+    }
+
 
     // Max HP test
     @Test public void maxHPTest() {
