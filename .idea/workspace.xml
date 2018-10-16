@@ -26,27 +26,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="109" />
+          <entry key="java" value="110" />
           <entry key="tarea1" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="109" />
+          <entry key="JAVA" value="110" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9606" />
-          <entry key="txt" value="401" />
+          <entry key="java" value="9873" />
+          <entry key="txt" value="415" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9606" />
-          <entry key="PLAIN_TEXT" value="401" />
+          <entry key="JAVA" value="9873" />
+          <entry key="PLAIN_TEXT" value="415" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -132,8 +132,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/EraImperiosTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="161" column="14" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
+            <state relative-caret-position="448">
+              <caret line="233" column="13" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setUp#0;class#EraImperiosTest#0" />
@@ -142,11 +142,22 @@
                 <element signature="method#defaultAliveTest#0;class#EraImperiosTest#0" />
                 <element signature="method#simpleAttackTest#0;class#EraImperiosTest#0" />
                 <element signature="method#infantryAttackTest#0;class#EraImperiosTest#0" />
+                <element signature="method#archerAttackTest#0;class#EraImperiosTest#0" />
+                <element signature="method#cavalryAttackTest#0;class#EraImperiosTest#0" />
                 <element signature="method#maxHPTest#0;class#EraImperiosTest#0" />
                 <element signature="method#deathTest#0;class#EraImperiosTest#0" />
                 <element signature="method#nonDefaultCreationTest#0;class#EraImperiosTest#0" />
                 <element signature="method#lessThanZeroCreationTest#0;class#EraImperiosTest#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/ArcherUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-210">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -340,7 +351,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539574659977</updated>
-      <workItem from="1539574662888" duration="17665000" />
+      <workItem from="1539574662888" duration="19087000" />
     </task>
     <task id="LOCAL-00001" summary="Crear tests y arreglar problemas">
       <created>1539580451203</created>
@@ -398,19 +409,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539660522612</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Agregar test para ataque de archer">
+      <created>1539661052830</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539661052830</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Agregar test para ataque de cavalry">
+      <created>1539661708036</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539661708036</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EraImperiosTest - 2018.10.15 at 23h 30m 43s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EraImperiosTest - 2018.10.15 at 23h 49m 59s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EraImperiosTest - 2018.10.15 at 23h 51m 31s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EraImperiosTest - 2018.10.15 at 23h 58m 06s.xml">
       <configuration name="EraImperiosTest" configurationId="JUnit" />
     </history-entry>
@@ -432,9 +448,18 @@
     <history-entry file="EraImperiosTest - 2018.10.16 at 00h 33m 17s.xml">
       <configuration name="EraImperiosTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EraImperiosTest - 2018.10.16 at 00h 37m 22s.xml">
+      <configuration name="EraImperiosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EraImperiosTest - 2018.10.16 at 00h 45m 06s.xml">
+      <configuration name="EraImperiosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EraImperiosTest - 2018.10.16 at 00h 48m 09s.xml">
+      <configuration name="EraImperiosTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17665000" />
+    <option name="totallyTimeSpent" value="19087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="927" height="1055" extended-state="4" />
@@ -483,7 +508,9 @@
     <MESSAGE value="Agregar tests para Buildings" />
     <MESSAGE value="Modificar estructura de archivos" />
     <MESSAGE value="Agregar test para ataque de infantry" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar test para ataque de infantry" />
+    <MESSAGE value="Agregar test para ataque de archer" />
+    <MESSAGE value="Agregar test para ataque de cavalry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar test para ataque de cavalry" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/Assert.class">
@@ -515,13 +542,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttackable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/ArcherUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
@@ -631,10 +651,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/ArcherUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-210">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/EraImperiosTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="161" column="14" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
+        <state relative-caret-position="448">
+          <caret line="233" column="13" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#EraImperiosTest#0" />
@@ -643,6 +670,8 @@
             <element signature="method#defaultAliveTest#0;class#EraImperiosTest#0" />
             <element signature="method#simpleAttackTest#0;class#EraImperiosTest#0" />
             <element signature="method#infantryAttackTest#0;class#EraImperiosTest#0" />
+            <element signature="method#archerAttackTest#0;class#EraImperiosTest#0" />
+            <element signature="method#cavalryAttackTest#0;class#EraImperiosTest#0" />
             <element signature="method#maxHPTest#0;class#EraImperiosTest#0" />
             <element signature="method#deathTest#0;class#EraImperiosTest#0" />
             <element signature="method#nonDefaultCreationTest#0;class#EraImperiosTest#0" />

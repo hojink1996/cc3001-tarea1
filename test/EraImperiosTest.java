@@ -197,6 +197,43 @@ public class EraImperiosTest {
         cavalry.attack(barracks);
         assertEquals(1194.4, barracks.getHP(), 0.01);
     }
+
+    // Test siege attacking
+    @Test public void siegeAttackTest() {
+        // Attack infantry
+        siege.attack(infantry);
+        assertEquals(0, infantry.getHP(), 0.01);
+
+        // Attack archer
+        siege.attack(archer);
+        assertEquals(0, archer.getHP(), 0.01);
+
+        // Attack cavalry
+        siege.attack(cavalry);
+        assertEquals(100, cavalry.getHP(), 0.01);
+
+        // Attack siege
+        // First create a new siege, so that the old one doesn't die
+        AbstractAttacker newSiege = new SiegeUnit(50, 10);
+        newSiege.attack(siege);
+        assertEquals(60, siege.getHP(), 0.01);
+
+        // Attack monk
+        siege.attack(monk);
+        assertEquals(0, monk.getHP(), 0.01);
+
+        // Attack villager
+        siege.attack(villager);
+        assertEquals(0, villager.getHP(), 0.01);
+
+        // Attack castle
+        siege.attack(castle);
+        assertEquals(4700, castle.getHP(), 0.01);
+
+        // Attack barracks
+        siege.attack(barracks);
+        assertEquals(1100, barracks.getHP(), 0.01);
+    }
     // Max HP test
     @Test public void maxHPTest() {
         AbstractAttacker superMonk = new Monk(25, 5000);
