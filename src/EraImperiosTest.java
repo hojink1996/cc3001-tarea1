@@ -3,17 +3,18 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.assertFalse;
 
 public class EraImperiosTest {
 
     // Declare the objects to use
-    AbstractAttaker infantry;
-    AbstractAttaker archer;
-    AbstractAttaker cavalry;
-    AbstractAttaker siege;
-    AbstractAttaker monk;
-    AbstractAttaker villager;
-    AbstractAttaker castle;
+    AbstractAttacker infantry;
+    AbstractAttacker archer;
+    AbstractAttacker cavalry;
+    AbstractAttacker siege;
+    AbstractAttacker monk;
+    AbstractAttacker villager;
+    AbstractAttacker castle;
     AbstractAttackable barracks;
 
     // Set up the Test Cases
@@ -93,7 +94,7 @@ public class EraImperiosTest {
 
     // Max HP test
     @Test public void maxHPTest() {
-        AbstractAttaker superMonk = new Monk(25, 5000);
+        AbstractAttacker superMonk = new Monk(25, 5000);
 
         // Max HP for archer
         superMonk.attack(archer);
@@ -119,5 +120,84 @@ public class EraImperiosTest {
         AbstractAttackable newHPVillager = new Villager(2000, 10);
         superMonk.attack(newHPVillager);
         assertEquals(4000, newHPVillager.getHP(), 0.01);
+    }
+
+    // Death test
+    @Test public void deathTest() {
+        // Create a instant kill class
+        AbstractAttacker killer = new SiegeUnit(100, 10000);
+
+        // Kill all characters
+        killer.attack(archer);
+        killer.attack(infantry);
+        killer.attack(cavalry);
+        killer.attack(siege);
+        killer.attack(monk);
+        killer.attack(villager);
+        killer.attack(castle);
+        killer.attack(barracks);
+
+        // Test for HP
+        assertEquals(0, archer.getHP(), 0.01);
+        assertEquals(0, infantry.getHP(), 0.01);
+        assertEquals(0, cavalry.getHP(), 0.01);
+        assertEquals(0, siege.getHP(), 0.01);
+        assertEquals(0, monk.getHP(), 0.01);
+        assertEquals(0, villager.getHP(), 0.01);
+        assertEquals(0, castle.getHP(), 0.01);
+        assertEquals(0, barracks.getHP(), 0.01);
+
+        // Test for alive status
+        assertFalse(archer.isAlive());
+        assertFalse(infantry.isAlive());
+        assertFalse(cavalry.isAlive());
+        assertFalse(siege.isAlive());
+        assertFalse(monk.isAlive());
+        assertFalse(villager.isAlive());
+        assertFalse(castle.isAlive());
+        assertFalse(barracks.isAlive());
+
+        // Test that you can't attack when dead
+        archer.attack(killer);
+        assertEquals(100, killer.getHP(), 0.01);
+
+        infantry.attack(killer);
+        assertEquals(100, killer.getHP(), 0.01);
+
+        cavalry.attack(killer);
+        assertEquals(100, killer.getHP(), 0.01);
+
+        siege.attack(killer);
+        assertEquals(100, killer.getHP(), 0.01);
+
+        monk.attack(killer);
+        assertEquals(100, killer.getHP(), 0.01);
+
+        villager.attack(killer);
+        assertEquals(100, killer.getHP(), 0.01);
+
+        castle.attack(killer);
+        assertEquals(100, killer.getHP(),0.01);
+
+        // Test that HP won't go lower than 0, even if you keep attacking
+        // Attack them again
+        killer.attack(archer);
+        killer.attack(infantry);
+        killer.attack(cavalry);
+        killer.attack(siege);
+        killer.attack(monk);
+        killer.attack(villager);
+        killer.attack(castle);
+        killer.attack(barracks);
+
+        // Test for HP
+        assertEquals(0, archer.getHP(), 0.01);
+        assertEquals(0, infantry.getHP(), 0.01);
+        assertEquals(0, cavalry.getHP(), 0.01);
+        assertEquals(0, siege.getHP(), 0.01);
+        assertEquals(0, monk.getHP(), 0.01);
+        assertEquals(0, villager.getHP(), 0.01);
+        assertEquals(0, castle.getHP(), 0.01);
+        assertEquals(0, barracks.getHP(), 0.01);
     }
 }

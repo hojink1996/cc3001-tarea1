@@ -1,4 +1,4 @@
-public abstract class AbstractAttaker extends AbstractAttackable {
+public abstract class AbstractAttacker extends AbstractAttackable {
     protected float attack;
 
     // Getter for attack

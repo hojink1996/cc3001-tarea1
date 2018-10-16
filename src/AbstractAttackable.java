@@ -15,11 +15,11 @@ public abstract class AbstractAttackable implements IEnte {
         return isAlive;
     }
 
-    public abstract void attackedByInfantry(AbstractAttaker attacker);
-    public abstract void attackedByArcher(AbstractAttaker attacker);
-    public abstract void attackedByCavalry(AbstractAttaker attacker);
-    public abstract void attackedBySiege(AbstractAttaker attacker);
-    public abstract void attackedByMonk(AbstractAttaker attacker);
-    public abstract void attackedByVillager(AbstractAttaker attacker);
-    public abstract void attackedByCastle(AbstractAttaker attacker);
+    public abstract void attackedByInfantry(AbstractAttacker attacker);
+    public abstract void attackedByArcher(AbstractAttacker attacker);
+    public abstract void attackedByCavalry(AbstractAttacker attacker);
+    public abstract void attackedBySiege(AbstractAttacker attacker);
+    public abstract void attackedByMonk(AbstractAttacker attacker);
+    public abstract void attackedByVillager(AbstractAttacker attacker);
+    public abstract void attackedByCastle(AbstractAttacker attacker);
 }

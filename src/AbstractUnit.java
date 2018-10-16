@@ -1,2 +1,2 @@
-public abstract class AbstractUnit extends AbstractAttaker {
+public abstract class AbstractUnit extends AbstractAttacker {
 }

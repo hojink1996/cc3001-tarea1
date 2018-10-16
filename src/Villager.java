@@ -20,7 +20,7 @@ public class Villager extends AbstractUnit{
     }
 
     @Override
-    public void attackedByInfantry(AbstractAttaker attacker) {
+    public void attackedByInfantry(AbstractAttacker attacker) {
         if(isAlive) {
             hp -= 1.5 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
@@ -29,7 +29,7 @@ public class Villager extends AbstractUnit{
     }
 
     @Override
-    public void attackedByArcher(AbstractAttaker attacker) {
+    public void attackedByArcher(AbstractAttacker attacker) {
         if(isAlive) {
             hp -= 1.5 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
@@ -38,7 +38,7 @@ public class Villager extends AbstractUnit{
     }
 
     @Override
-    public void attackedByCavalry(AbstractAttaker attacker) {
+    public void attackedByCavalry(AbstractAttacker attacker) {
         if(isAlive) {
             hp -= 1.5 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
@@ -47,7 +47,7 @@ public class Villager extends AbstractUnit{
     }
 
     @Override
-    public void attackedBySiege(AbstractAttaker attacker) {
+    public void attackedBySiege(AbstractAttacker attacker) {
         if(isAlive) {
             hp -= 1.5 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
@@ -56,7 +56,7 @@ public class Villager extends AbstractUnit{
     }
 
     @Override
-    public void attackedByMonk(AbstractAttaker attacker) {
+    public void attackedByMonk(AbstractAttacker attacker) {
         if(isAlive) {
             hp += 0.5 * attacker.getAttack();
             hp = hp > maxHp ? maxHp : hp;
@@ -64,7 +64,7 @@ public class Villager extends AbstractUnit{
     }
 
     @Override
-    public void attackedByVillager(AbstractAttaker attacker) {
+    public void attackedByVillager(AbstractAttacker attacker) {
         if(isAlive) {
             hp -= attacker.getAttack();
             hp = hp > 0 ? hp : 0;
@@ -73,7 +73,7 @@ public class Villager extends AbstractUnit{
     }
 
     @Override
-    public void attackedByCastle(AbstractAttaker attacker) {
+    public void attackedByCastle(AbstractAttacker attacker) {
         if(isAlive) {
             hp -= 1.2 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;

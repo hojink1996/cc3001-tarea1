@@ -20,7 +20,7 @@ public class Monk extends AbstractUnit {
     }
 
     @Override
-    public void attackedByInfantry(AbstractAttaker attacker) {
+    public void attackedByInfantry(AbstractAttacker attacker) {
         if(isAlive) {
             hp = 0;
             isAlive = false;
@@ -28,7 +28,7 @@ public class Monk extends AbstractUnit {
     }
 
     @Override
-    public void attackedByArcher(AbstractAttaker attacker) {
+    public void attackedByArcher(AbstractAttacker attacker) {
         if(isAlive) {
             hp = 0;
             isAlive = false;
@@ -36,7 +36,7 @@ public class Monk extends AbstractUnit {
     }
 
     @Override
-    public void attackedByCavalry(AbstractAttaker attacker) {
+    public void attackedByCavalry(AbstractAttacker attacker) {
         if(isAlive) {
             hp = 0;
             isAlive = false;
@@ -44,7 +44,7 @@ public class Monk extends AbstractUnit {
     }
 
     @Override
-    public void attackedBySiege(AbstractAttaker attacker) {
+    public void attackedBySiege(AbstractAttacker attacker) {
         if(isAlive) {
             hp = 0;
             isAlive = false;
@@ -52,7 +52,7 @@ public class Monk extends AbstractUnit {
     }
 
     @Override
-    public void attackedByMonk(AbstractAttaker attacker) {
+    public void attackedByMonk(AbstractAttacker attacker) {
         if(isAlive) {
             hp += 0.5 * attacker.getAttack();
             hp = hp > maxHp ? maxHp : hp;
@@ -60,11 +60,11 @@ public class Monk extends AbstractUnit {
     }
 
     @Override
-    public void attackedByVillager(AbstractAttaker attacker) {
+    public void attackedByVillager(AbstractAttacker attacker) {
     }
 
     @Override
-    public void attackedByCastle(AbstractAttaker attacker) {
+    public void attackedByCastle(AbstractAttacker attacker) {
         if(isAlive) {
             hp = 0;
             isAlive = false;
