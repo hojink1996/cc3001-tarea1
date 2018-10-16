@@ -340,6 +340,33 @@ public class EraImperiosTest {
         assertEquals(1192.3, barracks.getHP(), 0.01);
     }
 
+    // Test villager healing
+    @Test public void villagerHealingTest() {
+        // Create a new siege unit to attack
+        AbstractAttacker newSiege = new SiegeUnit(10, 10);
+
+        // Attack the old siege unit
+        newSiege.attack(siege);
+        assertEquals(60, siege.getHP(), 0.01);
+
+        // Heal the old siege unit
+        villager.attack(siege);
+        assertEquals(61.5, siege.getHP(), 0.01);
+
+        // Attack the castle and barracks
+        newSiege.attack(castle);
+        newSiege.attack(barracks);
+        assertEquals(4780, castle.getHP(), 0.01);
+        assertEquals(1180, barracks.getHP(), 0.01);
+
+        // Heal the castle and barracks
+        villager.attack(castle);
+        villager.attack(barracks);
+        assertEquals(4780.9, castle.getHP(), 0.01);
+        assertEquals(1182.1, barracks.getHP(), 0.01);
+
+    }
+
     // Max HP test
     @Test public void maxHPTest() {
         AbstractAttacker superMonk = new Monk(25, 5000);
