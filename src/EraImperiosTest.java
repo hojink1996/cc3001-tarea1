@@ -95,6 +95,7 @@ public class EraImperiosTest {
     // Max HP test
     @Test public void maxHPTest() {
         AbstractAttacker superMonk = new Monk(25, 5000);
+        AbstractAttacker superVillager = new Villager(25, 100000);
 
         // Max HP for archer
         superMonk.attack(archer);
@@ -115,6 +116,14 @@ public class EraImperiosTest {
         // Max HP for villager
         superMonk.attack(villager);
         assertEquals(50, villager.getHP(), 0.01);
+
+        // Max HP for castle
+        superVillager.attack(castle);
+        assertEquals(4800, castle.getHP(), 0.01);
+
+        // Max HP for barracks
+        superVillager.attack(barracks);
+        assertEquals(1200, barracks.getHP(), 0.01);
 
         // Change the starting HP
         AbstractAttackable newHPVillager = new Villager(2000, 10);
