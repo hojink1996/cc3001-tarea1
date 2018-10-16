@@ -1,27 +1,30 @@
-public class ArcherUnit extends AbstractUnit {
+package cc3001.tarea1;
 
-    // ArcherUnit constructor
-    public ArcherUnit(float hp, float attack) {
+public class InfantryUnit extends AbstractUnit {
+
+    // InfantryUnit construtor
+    public InfantryUnit(float hp, float attack) {
         this.hp = hp > 0 ? hp : 0;
         this.attack = attack > 0 ? attack : 0;
         isAlive = hp > 0;
         maxHp = 2 * hp;
     }
 
-    // ArcherUnit default constructor
-    public ArcherUnit() {
-        this(35, 5);
+    // Default InfantryUnity constructor
+    public InfantryUnit() {
+        this(40, 3);
     }
+
 
     @Override
     public void attack(AbstractAttackable attackable) {
-        if(isAlive) {attackable.attackedByArcher(this);}
+        if(isAlive) {attackable.attackedByInfantry(this);}
     }
 
     @Override
     public void attackedByInfantry(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.2 * attacker.getAttack();
+            hp -= 1.0 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -39,7 +42,7 @@ public class ArcherUnit extends AbstractUnit {
     @Override
     public void attackedByCavalry(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.5 * attacker.getAttack();
+            hp -= 1.0 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -65,7 +68,7 @@ public class ArcherUnit extends AbstractUnit {
     @Override
     public void attackedByVillager(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= attacker.getAttack();
+            hp -= 0.8 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }

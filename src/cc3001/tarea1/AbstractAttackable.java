@@ -1,3 +1,5 @@
+package cc3001.tarea1;
+
 public abstract class AbstractAttackable implements IEnte {
     protected float hp;
     protected boolean isAlive;

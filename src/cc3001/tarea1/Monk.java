@@ -1,57 +1,55 @@
-public class InfantryUnit extends AbstractUnit {
+package cc3001.tarea1;
 
-    // InfantryUnit construtor
-    public InfantryUnit(float hp, float attack) {
+public class Monk extends AbstractUnit {
+
+    // Monk constructor
+    public Monk(float hp, float attack) {
         this.hp = hp > 0 ? hp : 0;
         this.attack = attack > 0 ? attack : 0;
         isAlive = hp > 0;
         maxHp = 2 * hp;
     }
 
-    // Default InfantryUnity constructor
-    public InfantryUnit() {
-        this(40, 3);
+    // Monk default constructor
+    public Monk() {
+        this(25, 5);
     }
 
 
     @Override
     public void attack(AbstractAttackable attackable) {
-        if(isAlive) {attackable.attackedByInfantry(this);}
+        if(isAlive) {attackable.attackedByMonk(this);}
     }
 
     @Override
     public void attackedByInfantry(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.0 * attacker.getAttack();
-            hp = hp > 0 ? hp : 0;
-            isAlive = hp > 0;
+            hp = 0;
+            isAlive = false;
         }
     }
 
     @Override
     public void attackedByArcher(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.2 * attacker.getAttack();
-            hp = hp > 0 ? hp : 0;
-            isAlive = hp > 0;
+            hp = 0;
+            isAlive = false;
         }
     }
 
     @Override
     public void attackedByCavalry(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.0 * attacker.getAttack();
-            hp = hp > 0 ? hp : 0;
-            isAlive = hp > 0;
+            hp = 0;
+            isAlive = false;
         }
     }
 
     @Override
     public void attackedBySiege(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.5 * attacker.getAttack();
-            hp = hp > 0 ? hp : 0;
-            isAlive = hp > 0;
+            hp = 0;
+            isAlive = false;
         }
     }
 
@@ -65,19 +63,13 @@ public class InfantryUnit extends AbstractUnit {
 
     @Override
     public void attackedByVillager(AbstractAttacker attacker) {
-        if(isAlive) {
-            hp -= 0.8 * attacker.getAttack();
-            hp = hp > 0 ? hp : 0;
-            isAlive = hp > 0;
-        }
     }
 
     @Override
     public void attackedByCastle(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.2 * attacker.getAttack();
-            hp = hp > 0 ? hp : 0;
-            isAlive = hp > 0;
+            hp = 0;
+            isAlive = false;
         }
     }
 }

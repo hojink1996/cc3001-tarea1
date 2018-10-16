@@ -1,28 +1,23 @@
-public class Villager extends AbstractUnit{
+package cc3001.tarea1;
 
-    // Villager constructor
-    public Villager(float hp, float attack) {
+public class Barracks extends AbstractAttackable implements IBuilding {
+
+    // Barracks constructor
+    public Barracks(float hp) {
         this.hp = hp > 0 ? hp : 0;
-        this.attack = attack > 0 ? attack : 0;
+        maxHp = hp;
         isAlive = hp > 0;
-        maxHp = 2 * hp;
     }
 
-    // Villager default constructor
-    public Villager() {
-        this(25, 3);
-    }
-
-
-    @Override
-    public void attack(AbstractAttackable attackable) {
-        if(isAlive) {attackable.attackedByVillager(this);}
+    // Barracks default constructor
+    public Barracks() {
+        this(1200);
     }
 
     @Override
     public void attackedByInfantry(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.5 * attacker.getAttack();
+            hp -= 0.7 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -31,7 +26,7 @@ public class Villager extends AbstractUnit{
     @Override
     public void attackedByArcher(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.5 * attacker.getAttack();
+            hp -= 0.7 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -40,7 +35,7 @@ public class Villager extends AbstractUnit{
     @Override
     public void attackedByCavalry(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.5 * attacker.getAttack();
+            hp -= 0.7 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -49,7 +44,7 @@ public class Villager extends AbstractUnit{
     @Override
     public void attackedBySiege(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.5 * attacker.getAttack();
+            hp -= 2.0 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -57,25 +52,20 @@ public class Villager extends AbstractUnit{
 
     @Override
     public void attackedByMonk(AbstractAttacker attacker) {
-        if(isAlive) {
-            hp += 0.5 * attacker.getAttack();
-            hp = hp > maxHp ? maxHp : hp;
-        }
     }
 
     @Override
     public void attackedByVillager(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= attacker.getAttack();
-            hp = hp > 0 ? hp : 0;
-            isAlive = hp > 0;
+            hp += 0.7*attacker.getAttack();
+            hp = hp > maxHp ? maxHp : hp;
         }
     }
 
     @Override
     public void attackedByCastle(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.2 * attacker.getAttack();
+            hp -= 0.7 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }

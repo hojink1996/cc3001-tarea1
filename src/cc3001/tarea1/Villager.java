@@ -1,27 +1,30 @@
-public class Castle extends AbstractAttacker implements IBuilding {
+package cc3001.tarea1;
 
-    // Castle constructor
-    public Castle(float hp, float attack) {
+public class Villager extends AbstractUnit {
+
+    // Villager constructor
+    public Villager(float hp, float attack) {
         this.hp = hp > 0 ? hp : 0;
         this.attack = attack > 0 ? attack : 0;
         isAlive = hp > 0;
-        maxHp = hp;
+        maxHp = 2 * hp;
     }
 
-    // Castle default constructor
-    public Castle() {
-        this(4800, 11);
+    // Villager default constructor
+    public Villager() {
+        this(25, 3);
     }
+
 
     @Override
     public void attack(AbstractAttackable attackable) {
-        if(isAlive) {attackable.attackedByCastle(this);}
+        if(isAlive) {attackable.attackedByVillager(this);}
     }
 
     @Override
     public void attackedByInfantry(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 0.3 * attacker.getAttack();
+            hp -= 1.5 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -30,7 +33,7 @@ public class Castle extends AbstractAttacker implements IBuilding {
     @Override
     public void attackedByArcher(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 0.1 * attacker.getAttack();
+            hp -= 1.5 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -39,7 +42,7 @@ public class Castle extends AbstractAttacker implements IBuilding {
     @Override
     public void attackedByCavalry(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 0.3 * attacker.getAttack();
+            hp -= 1.5 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -48,7 +51,7 @@ public class Castle extends AbstractAttacker implements IBuilding {
     @Override
     public void attackedBySiege(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 2.0 * attacker.getAttack();
+            hp -= 1.5 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -56,20 +59,25 @@ public class Castle extends AbstractAttacker implements IBuilding {
 
     @Override
     public void attackedByMonk(AbstractAttacker attacker) {
+        if(isAlive) {
+            hp += 0.5 * attacker.getAttack();
+            hp = hp > maxHp ? maxHp : hp;
+        }
     }
 
     @Override
     public void attackedByVillager(AbstractAttacker attacker) {
         if(isAlive) {
-            hp += 0.3 * attacker.getAttack();
-            hp = hp > maxHp ? maxHp : hp;
+            hp -= attacker.getAttack();
+            hp = hp > 0 ? hp : 0;
+            isAlive = hp > 0;
         }
     }
 
     @Override
     public void attackedByCastle(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 0.1 * attacker.getAttack();
+            hp -= 1.2 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }

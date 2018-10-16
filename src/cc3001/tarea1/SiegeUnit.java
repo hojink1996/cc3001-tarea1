@@ -1,3 +1,5 @@
+package cc3001.tarea1;
+
 public class SiegeUnit extends AbstractUnit {
 
     // SiegeUnit constructor

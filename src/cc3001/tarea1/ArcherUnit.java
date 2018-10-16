@@ -1,21 +1,23 @@
-public class CavalryUnit extends AbstractUnit {
+package cc3001.tarea1;
 
-    // CavalryUnit constructor
-    public CavalryUnit(float hp, float attack) {
+public class ArcherUnit extends AbstractUnit {
+
+    // ArcherUnit constructor
+    public ArcherUnit(float hp, float attack) {
         this.hp = hp > 0 ? hp : 0;
         this.attack = attack > 0 ? attack : 0;
         isAlive = hp > 0;
         maxHp = 2 * hp;
     }
 
-    public CavalryUnit() {
-        this(150, 8);
+    // ArcherUnit default constructor
+    public ArcherUnit() {
+        this(35, 5);
     }
-
 
     @Override
     public void attack(AbstractAttackable attackable) {
-        if(isAlive) {attackable.attackedByCavalry(this);}
+        if(isAlive) {attackable.attackedByArcher(this);}
     }
 
     @Override
@@ -30,7 +32,7 @@ public class CavalryUnit extends AbstractUnit {
     @Override
     public void attackedByArcher(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.0 * attacker.getAttack();
+            hp -= 1.2 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -39,7 +41,7 @@ public class CavalryUnit extends AbstractUnit {
     @Override
     public void attackedByCavalry(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.0 * attacker.getAttack();
+            hp -= 1.5 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -48,7 +50,7 @@ public class CavalryUnit extends AbstractUnit {
     @Override
     public void attackedBySiege(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 1.0 * attacker.getAttack();
+            hp -= 1.5 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }
@@ -65,7 +67,7 @@ public class CavalryUnit extends AbstractUnit {
     @Override
     public void attackedByVillager(AbstractAttacker attacker) {
         if(isAlive) {
-            hp -= 0.5 * attacker.getAttack();
+            hp -= attacker.getAttack();
             hp = hp > 0 ? hp : 0;
             isAlive = hp > 0;
         }

@@ -1,3 +1,5 @@
+package cc3001.tarea1;
+
 public abstract class AbstractAttacker extends AbstractAttackable {
     protected float attack;
 
