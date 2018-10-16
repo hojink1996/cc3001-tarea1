@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="63e284ea-1a1e-43df-8796-6247d54a221a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractAttackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractAttackable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractAttaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractAttacker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArcherUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArcherUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Barracks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Barracks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Castle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Castle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CavalryUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CavalryUnit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EraImperiosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EraImperiosTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InfantryUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InfantryUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Monk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SiegeUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SiegeUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Villager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Villager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,25 +24,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="92" />
+          <entry key="java" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="92" />
+          <entry key="JAVA" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6818" />
-          <entry key="txt" value="105" />
+          <entry key="java" value="8550" />
+          <entry key="txt" value="162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6818" />
-          <entry key="PLAIN_TEXT" value="105" />
+          <entry key="JAVA" value="8550" />
+          <entry key="PLAIN_TEXT" value="162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -63,13 +53,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EraImperiosTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="182" column="28" selection-start-line="182" selection-start-column="28" selection-end-line="182" selection-end-column="28" />
+            <state relative-caret-position="523">
+              <caret line="274" column="42" selection-start-line="274" selection-start-column="42" selection-end-line="274" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#setUp#0;class#EraImperiosTest#0" />
+                <element signature="method#defaultHPTest#0;class#EraImperiosTest#0" />
+                <element signature="method#defaultAttackTest#0;class#EraImperiosTest#0" />
+                <element signature="method#defaultAliveTest#0;class#EraImperiosTest#0" />
+                <element signature="method#simpleAttackTest#0;class#EraImperiosTest#0" />
+                <element signature="method#maxHPTest#0;class#EraImperiosTest#0" />
+                <element signature="method#deathTest#0;class#EraImperiosTest#0" />
+                <element signature="method#noncreationTest#0;class#EraImperiosTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Barracks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/IBuilding.java" />
         <option value="$PROJECT_DIR$/src/Baracks.java" />
         <option value="$PROJECT_DIR$/src/IEnte.java" />
-        <option value="$PROJECT_DIR$/src/Barracks.java" />
         <option value="$PROJECT_DIR$/src/CavalryUnit.java" />
         <option value="$PROJECT_DIR$/src/InfantryUnit.java" />
         <option value="$PROJECT_DIR$/src/Monk.java" />
@@ -161,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/Castle.java" />
         <option value="$PROJECT_DIR$/src/AbstractAttackable.java" />
         <option value="$PROJECT_DIR$/src/EraImperiosTest.java" />
+        <option value="$PROJECT_DIR$/src/Barracks.java" />
       </list>
     </option>
   </component>
@@ -280,7 +291,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539574659977</updated>
-      <workItem from="1539574662888" duration="12922000" />
+      <workItem from="1539574662888" duration="14908000" />
     </task>
     <task id="LOCAL-00001" summary="Crear tests y arreglar problemas">
       <created>1539580451203</created>
@@ -303,22 +314,17 @@
       <option name="project" value="LOCAL" />
       <updated>1539585564264</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Testear el sistema de muerte">
+      <created>1539656428458</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539656428458</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EraImperiosTest - 2018.10.15 at 03h 24m 12s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EraImperiosTest - 2018.10.15 at 03h 25m 56s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EraImperiosTest - 2018.10.15 at 03h 32m 35s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EraImperiosTest - 2018.10.15 at 03h 38m 13s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EraImperiosTest_maxHPTest - 2018.10.15 at 03h 38m 42s.xml">
       <configuration name="EraImperiosTest.maxHPTest" configurationId="JUnit" />
     </history-entry>
@@ -337,9 +343,21 @@
     <history-entry file="EraImperiosTest - 2018.10.15 at 23h 17m 31s.xml">
       <configuration name="EraImperiosTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EraImperiosTest - 2018.10.15 at 23h 18m 21s.xml">
+      <configuration name="EraImperiosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EraImperiosTest - 2018.10.15 at 23h 30m 07s.xml">
+      <configuration name="EraImperiosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EraImperiosTest - 2018.10.15 at 23h 30m 43s.xml">
+      <configuration name="EraImperiosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EraImperiosTest - 2018.10.15 at 23h 49m 59s.xml">
+      <configuration name="EraImperiosTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12922000" />
+    <option name="totallyTimeSpent" value="14908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -348,8 +366,8 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
-      <window_info id="Learn" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24405092" />
+      <window_info id="Learn" weight="0.32982844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24405092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" weight="0.32972974" />
@@ -358,7 +376,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,7 +400,8 @@
     <MESSAGE value="Crear tests y arreglar problemas" />
     <MESSAGE value="Modificar a floats" />
     <MESSAGE value="Implementar sistema de ataque" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementar sistema de ataque" />
+    <MESSAGE value="Testear el sistema de muerte" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testear el sistema de muerte" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/Assert.class">
@@ -453,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Barracks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/InfantryUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -471,31 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcherUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractAttacker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="39" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Castle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -506,12 +497,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcherUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Castle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AbstractUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/EraImperiosTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="182" column="28" selection-start-line="182" selection-start-column="28" selection-end-line="182" selection-end-column="28" />
+        <state relative-caret-position="523">
+          <caret line="274" column="42" selection-start-line="274" selection-start-column="42" selection-end-line="274" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#setUp#0;class#EraImperiosTest#0" />
+            <element signature="method#defaultHPTest#0;class#EraImperiosTest#0" />
+            <element signature="method#defaultAttackTest#0;class#EraImperiosTest#0" />
+            <element signature="method#defaultAliveTest#0;class#EraImperiosTest#0" />
+            <element signature="method#simpleAttackTest#0;class#EraImperiosTest#0" />
+            <element signature="method#maxHPTest#0;class#EraImperiosTest#0" />
+            <element signature="method#deathTest#0;class#EraImperiosTest#0" />
+            <element signature="method#noncreationTest#0;class#EraImperiosTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Barracks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
           </folding>
         </state>
       </provider>

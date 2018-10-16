@@ -2,7 +2,7 @@ public class Barracks extends AbstractAttackable implements IBuilding {
 
     // Barracks constructor
     public Barracks(float hp) {
-        this.hp = hp;
+        this.hp = hp > 0 ? hp : 0;
         maxHp = hp;
         isAlive = hp > 0;
     }
