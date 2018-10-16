@@ -305,6 +305,40 @@ public class EraImperiosTest {
         assertEquals(1200, barracks.getHP(), 0.01);
     }
 
+    // Test castle attacking
+    @Test public void castleAttackTest() {
+        // Attack infantry
+        castle.attack(infantry);
+        assertEquals(26.8, infantry.getHP(), 0.01);
+
+        // Attack archer
+        castle.attack(archer);
+        assertEquals(21.8, archer.getHP(), 0.01);
+
+        // Attack cavalry
+        castle.attack(cavalry);
+        assertEquals(136.8, cavalry.getHP(), 0.01);
+
+        // Attack siege
+        castle.attack(siege);
+        assertEquals(69.5, siege.getHP(), 0.01);
+
+        // Attack monk
+        castle.attack(monk);
+        assertEquals(0, monk.getHP(), 0.01);
+
+        // Attack villager
+        castle.attack(villager);
+        assertEquals(11.8, villager.getHP(), 0.01);
+
+        // Attack castle
+        castle.attack(castle);
+        assertEquals(4798.9, castle.getHP(), 0.01);
+
+        // Attack barracks
+        castle.attack(barracks);
+        assertEquals(1192.3, barracks.getHP(), 0.01);
+    }
 
     // Max HP test
     @Test public void maxHPTest() {
