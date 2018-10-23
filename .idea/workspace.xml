@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63e284ea-1a1e-43df-8796-6247d54a221a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/ArcherTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CastleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/CavalryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/InfantryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/MonkTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/SiegeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/VillagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Tarea1/EraImperiosTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/EraImperiosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/EraImperiosTestGenerico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CreationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/EraImperiosTestGenerico.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/EraImperiosTestGenerico.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Tarea_1$ArcherTest_and_8_more.ic" NAME="ArcherTest and 8 more Coverage Results" MODIFIED="1540337277351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Tarea_1$EraImperiosTest.ic" NAME="EraImperiosTest Coverage Results" MODIFIED="1539663454294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Tarea_1$ArcherTest_and_7_more.ic" NAME="ArcherTest and 7 more Coverage Results" MODIFIED="1540337114849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
@@ -42,7 +35,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="147" />
+          <entry key="java" value="148" />
           <entry key="tarea1" value="4" />
           <entry key="uml" value="1" />
         </counts>
@@ -50,20 +43,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="147" />
+          <entry key="JAVA" value="148" />
           <entry key="UML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14963" />
-          <entry key="txt" value="548" />
+          <entry key="java" value="14969" />
+          <entry key="txt" value="564" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14963" />
-          <entry key="PLAIN_TEXT" value="548" />
+          <entry key="JAVA" value="14969" />
+          <entry key="PLAIN_TEXT" value="564" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -228,11 +221,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/EraImperiosTestGenerico.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+            <state relative-caret-position="448">
+              <caret line="212" column="5" selection-start-line="212" selection-start-column="5" selection-end-line="212" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#defaultHPTest#0;class#EraImperiosTest#0" />
@@ -241,14 +234,24 @@
                 <element signature="method#simpleAttackTest#0;class#EraImperiosTest#0" />
                 <element signature="method#maxHPTest#0;class#EraImperiosTest#0" />
                 <element signature="method#deathTest#0;class#EraImperiosTest#0" />
-                <element signature="method#nonDefaultCreationTest#0;class#EraImperiosTest#0" />
-                <element signature="method#lessThanZeroCreationTest#0;class#EraImperiosTest#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/CreationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/VillagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="403">
@@ -341,8 +344,9 @@
         <option value="$PROJECT_DIR$/test/SiegeTest.java" />
         <option value="$PROJECT_DIR$/test/MonkTest.java" />
         <option value="$PROJECT_DIR$/test/CastleTest.java" />
-        <option value="$PROJECT_DIR$/test/EraImperiosTestGenerico.java" />
         <option value="$PROJECT_DIR$/test/VillagerTest.java" />
+        <option value="$PROJECT_DIR$/test/CreationTest.java" />
+        <option value="$PROJECT_DIR$/test/EraImperiosTestGenerico.java" />
       </list>
     </option>
   </component>
@@ -434,7 +438,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArcherTest and 7 more">
+  <component name="RunManager" selected="JUnit.ArcherTest and 8 more">
     <configuration name="ArcherTest and 7 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tarea1" />
       <option name="TEST_OBJECT" value="pattern" />
@@ -442,6 +446,24 @@
         <pattern testClass="ArcherTest" />
         <pattern testClass="CastleTest" />
         <pattern testClass="CavalryTest" />
+        <pattern testClass="EraImperiosTestGenerico" />
+        <pattern testClass="InfantryTest" />
+        <pattern testClass="MonkTest" />
+        <pattern testClass="SiegeTest" />
+        <pattern testClass="VillagerTest" />
+      </patterns>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArcherTest and 8 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tarea1" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <patterns>
+        <pattern testClass="ArcherTest" />
+        <pattern testClass="CastleTest" />
+        <pattern testClass="CavalryTest" />
+        <pattern testClass="CreationTest" />
         <pattern testClass="EraImperiosTestGenerico" />
         <pattern testClass="InfantryTest" />
         <pattern testClass="MonkTest" />
@@ -468,16 +490,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EraImperiosTest.maxHPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tarea1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EraImperiosTest" />
-      <option name="METHOD_NAME" value="maxHPTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="InfantryTest.infantryAttackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Tarea1" />
       <option name="PACKAGE_NAME" value="" />
@@ -490,18 +502,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.EraImperiosTest" />
-      <item itemvalue="JUnit.EraImperiosTest.maxHPTest" />
       <item itemvalue="JUnit.ArcherTest" />
       <item itemvalue="JUnit.InfantryTest.infantryAttackTest" />
       <item itemvalue="JUnit.ArcherTest and 7 more" />
+      <item itemvalue="JUnit.ArcherTest and 8 more" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ArcherTest and 8 more" />
         <item itemvalue="JUnit.ArcherTest and 7 more" />
         <item itemvalue="JUnit.InfantryTest.infantryAttackTest" />
         <item itemvalue="JUnit.ArcherTest" />
         <item itemvalue="JUnit.EraImperiosTest" />
-        <item itemvalue="JUnit.EraImperiosTest.maxHPTest" />
       </list>
     </recent_temporary>
   </component>
@@ -520,7 +532,7 @@
       <workItem from="1539802954509" duration="210000" />
       <workItem from="1539836881402" duration="187000" />
       <workItem from="1539837381224" duration="720000" />
-      <workItem from="1540334231145" duration="2864000" />
+      <workItem from="1540334231145" duration="3030000" />
     </task>
     <task id="LOCAL-00001" summary="Crear tests y arreglar problemas">
       <created>1539580451203</created>
@@ -641,13 +653,17 @@
       <option name="project" value="LOCAL" />
       <updated>1540335530175</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Ordenar Test">
+      <created>1540337134055</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1540337134055</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EraImperiosTest - 2018.10.16 at 01h 10m 27s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EraImperiosTest - 2018.10.16 at 01h 10m 35s.xml">
       <configuration name="EraImperiosTest" configurationId="JUnit" />
     </history-entry>
@@ -675,9 +691,12 @@
     <history-entry file="InfantryTest_infantryAttackTest - 2018.10.23 at 20h 19m 33s.xml">
       <configuration name="InfantryTest.infantryAttackTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArcherTest_and_7_more - 2018.10.23 at 20h 25m 15s.xml">
+      <configuration name="ArcherTest and 7 more" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29447000" />
+    <option name="totallyTimeSpent" value="29613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -709,7 +728,7 @@
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32982844" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" visible="true" weight="0.32982844" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -764,7 +783,8 @@
     <MESSAGE value="Agregar test para villager curando siege, castle y barracks" />
     <MESSAGE value="Agregar comentarios" />
     <MESSAGE value="Arreglar estructura" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglar estructura" />
+    <MESSAGE value="Ordenar Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ordenar Test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/Assert.class">
@@ -1216,24 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/EraImperiosTestGenerico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#defaultHPTest#0;class#EraImperiosTest#0" />
-            <element signature="method#defaultAttackTest#0;class#EraImperiosTest#0" />
-            <element signature="method#defaultAliveTest#0;class#EraImperiosTest#0" />
-            <element signature="method#simpleAttackTest#0;class#EraImperiosTest#0" />
-            <element signature="method#maxHPTest#0;class#EraImperiosTest#0" />
-            <element signature="method#deathTest#0;class#EraImperiosTest#0" />
-            <element signature="method#nonDefaultCreationTest#0;class#EraImperiosTest#0" />
-            <element signature="method#lessThanZeroCreationTest#0;class#EraImperiosTest#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/VillagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -1242,6 +1244,32 @@
             <element signature="imports" expanded="true" />
             <element signature="method#villagerAttackTest#0;class#VillagerTest#0" />
             <element signature="method#villagerHealingTest#0;class#VillagerTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/CreationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/EraImperiosTestGenerico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="212" column="5" selection-start-line="212" selection-start-column="5" selection-end-line="212" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#defaultHPTest#0;class#EraImperiosTest#0" />
+            <element signature="method#defaultAttackTest#0;class#EraImperiosTest#0" />
+            <element signature="method#defaultAliveTest#0;class#EraImperiosTest#0" />
+            <element signature="method#simpleAttackTest#0;class#EraImperiosTest#0" />
+            <element signature="method#maxHPTest#0;class#EraImperiosTest#0" />
+            <element signature="method#deathTest#0;class#EraImperiosTest#0" />
           </folding>
         </state>
       </provider>
