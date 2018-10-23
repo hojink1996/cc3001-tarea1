@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63e284ea-1a1e-43df-8796-6247d54a221a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/IBuilding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/IBuilding.java" afterDir="false" />
-    </list>
+    <list default="true" id="63e284ea-1a1e-43df-8796-6247d54a221a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +31,7 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="java" value="138" />
-          <entry key="tarea1" value="3" />
+          <entry key="tarea1" value="4" />
           <entry key="uml" value="1" />
         </counts>
       </usages-collector>
@@ -42,7 +39,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="138" />
-          <entry key="UML" value="4" />
+          <entry key="UML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -83,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IBuilding.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -92,141 +89,134 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="uml://JAVA/cc3001.tarea1">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
               <OriginalElement>cc3001.tarea1</OriginalElement>
               <nodes>
-                <node x="0.0" y="969.0">cc3001.tarea1.InfantryUnit</node>
-                <node x="903.0" y="757.5">cc3001.tarea1.AbstractUnit</node>
-                <node x="1503.5" y="544.0">cc3001.tarea1.IBuilding</node>
-                <node x="654.0" y="969.0">cc3001.tarea1.SiegeUnit</node>
-                <node x="327.0" y="969.0">cc3001.tarea1.ArcherUnit</node>
-                <node x="1635.0" y="969.0">cc3001.tarea1.CavalryUnit</node>
-                <node x="1071.0" y="129.0">cc3001.tarea1.IAttackable</node>
-                <node x="1246.25" y="0.0">cc3001.tarea1.IEnte</node>
-                <node x="1357.25" y="378.0">cc3001.tarea1.AbstractAttackable</node>
-                <node x="1308.0" y="969.0">cc3001.tarea1.Villager</node>
-                <node x="970.375" y="532.0">cc3001.tarea1.AbstractAttacker</node>
-                <node x="1059.0" y="637.0">cc3001.tarea1.Castle</node>
-                <node x="1386.0" y="649.0">cc3001.tarea1.Barracks</node>
-                <node x="981.0" y="969.0">cc3001.tarea1.Monk</node>
-                <node x="895.375" y="390.0">cc3001.tarea1.IAttacker</node>
+                <node x="1635.0" y="1042.0">cc3001.tarea1.InfantryUnit</node>
+                <node x="903.0" y="830.5">cc3001.tarea1.AbstractUnit</node>
+                <node x="1503.5" y="604.5">cc3001.tarea1.IBuilding</node>
+                <node x="981.0" y="1042.0">cc3001.tarea1.SiegeUnit</node>
+                <node x="1308.0" y="1042.0">cc3001.tarea1.ArcherUnit</node>
+                <node x="327.0" y="1042.0">cc3001.tarea1.CavalryUnit</node>
+                <node x="1293.75" y="129.0">cc3001.tarea1.IAttackable</node>
+                <node x="1355.75" y="0.0">cc3001.tarea1.IEnte</node>
+                <node x="1355.75" y="378.0">cc3001.tarea1.AbstractAttackable</node>
+                <node x="654.0" y="1042.0">cc3001.tarea1.Villager</node>
+                <node x="961.875" y="580.0">cc3001.tarea1.AbstractAttacker</node>
+                <node x="1059.0" y="710.0">cc3001.tarea1.Castle</node>
+                <node x="1386.0" y="722.0">cc3001.tarea1.Barracks</node>
+                <node x="0.0" y="1042.0">cc3001.tarea1.Monk</node>
+                <node x="891.125" y="414.5">cc3001.tarea1.IAttacker</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="cc3001.tarea1.AbstractAttacker" target="cc3001.tarea1.IAttacker">
-                  <point x="-41.5" y="-27.5" />
-                  <point x="0.0" y="40.0" />
+                  <point x="-45.75" y="-40.0" />
+                  <point x="0.0" y="39.5" />
                 </edge>
                 <edge source="cc3001.tarea1.Monk" target="cc3001.tarea1.AbstractUnit">
                   <point x="0.0" y="-136.0" />
-                  <point x="1134.5" y="949.0" />
-                  <point x="982.3333333333334" y="949.0" />
-                  <point x="11.333333333333371" y="15.5" />
+                  <point x="153.5" y="1002.0" />
+                  <point x="914.3333333333334" y="1002.0" />
+                  <point x="-56.66666666666663" y="15.5" />
                 </edge>
                 <edge source="cc3001.tarea1.Castle" target="cc3001.tarea1.AbstractAttacker">
                   <point x="-76.75" y="-136.0" />
-                  <point x="1135.75" y="617.0" />
-                  <point x="1094.875" y="617.0" />
-                  <point x="41.5" y="27.5" />
+                  <point x="1135.75" y="690.0" />
+                  <point x="1099.125" y="690.0" />
+                  <point x="45.75" y="40.0" />
                 </edge>
                 <edge source="cc3001.tarea1.AbstractUnit" target="cc3001.tarea1.AbstractAttacker">
                   <point x="0.0" y="-15.5" />
-                  <point x="971.0" y="617.0" />
-                  <point x="1011.875" y="617.0" />
-                  <point x="-41.5" y="27.5" />
+                  <point x="971.0" y="690.0" />
+                  <point x="1007.625" y="690.0" />
+                  <point x="-45.75" y="40.0" />
                 </edge>
                 <edge source="cc3001.tarea1.IAttackable" target="cc3001.tarea1.IEnte">
                   <point x="0.0" y="-99.5" />
-                  <point x="1224.5" y="104.0" />
-                  <point x="1282.25" y="104.0" />
-                  <point x="-36.0" y="39.5" />
+                  <point x="0.0" y="39.5" />
                 </edge>
                 <edge source="cc3001.tarea1.InfantryUnit" target="cc3001.tarea1.AbstractUnit">
                   <point x="0.0" y="-136.0" />
-                  <point x="153.5" y="929.0" />
-                  <point x="914.3333333333334" y="929.0" />
-                  <point x="-56.66666666666663" y="15.5" />
+                  <point x="1788.5" y="1002.0" />
+                  <point x="1027.6666666666667" y="1002.0" />
+                  <point x="56.66666666666674" y="15.5" />
                 </edge>
                 <edge source="cc3001.tarea1.ArcherUnit" target="cc3001.tarea1.AbstractUnit">
                   <point x="0.0" y="-136.0" />
-                  <point x="480.5" y="939.0" />
-                  <point x="937.0" y="939.0" />
-                  <point x="-34.0" y="15.5" />
+                  <point x="1461.5" y="1012.0" />
+                  <point x="1005.0" y="1012.0" />
+                  <point x="34.0" y="15.5" />
                 </edge>
                 <edge source="cc3001.tarea1.AbstractAttackable" target="cc3001.tarea1.IAttackable">
-                  <point x="0.0" y="-52.0" />
-                  <point x="1447.75" y="353.0" />
-                  <point x="1301.25" y="353.0" />
-                  <point x="76.75" y="99.5" />
+                  <point x="0.0" y="-76.0" />
+                  <point x="0.0" y="99.5" />
                 </edge>
                 <edge source="cc3001.tarea1.CavalryUnit" target="cc3001.tarea1.AbstractUnit">
                   <point x="0.0" y="-136.0" />
-                  <point x="1788.5" y="929.0" />
-                  <point x="1027.6666666666667" y="929.0" />
-                  <point x="56.66666666666674" y="15.5" />
-                </edge>
-                <edge source="cc3001.tarea1.IBuilding" target="cc3001.tarea1.IEnte">
-                  <point x="0.0" y="-15.5" />
-                  <point x="1558.5" y="104.0" />
-                  <point x="1354.25" y="104.0" />
-                  <point x="36.0" y="39.5" />
+                  <point x="480.5" y="1012.0" />
+                  <point x="937.0" y="1012.0" />
+                  <point x="-34.0" y="15.5" />
                 </edge>
                 <edge source="cc3001.tarea1.AbstractAttacker" target="cc3001.tarea1.AbstractAttackable">
-                  <point x="41.5" y="-27.5" />
-                  <point x="1094.875" y="507.0" />
-                  <point x="1402.5" y="507.0" />
-                  <point x="-45.25" y="52.0" />
+                  <point x="45.75" y="-40.0" />
+                  <point x="1099.125" y="555.0" />
+                  <point x="1401.5" y="555.0" />
+                  <point x="-45.75" y="76.0" />
                 </edge>
                 <edge source="cc3001.tarea1.IAttacker" target="cc3001.tarea1.IAttackable">
-                  <point x="0.0" y="-40.0" />
-                  <point x="1011.875" y="353.0" />
-                  <point x="1147.75" y="353.0" />
-                  <point x="-76.75" y="99.5" />
+                  <point x="0.0" y="-39.5" />
+                  <point x="1007.625" y="353.0" />
+                  <point x="1344.9166666666667" y="353.0" />
+                  <point x="-102.33333333333326" y="99.5" />
                 </edge>
                 <edge source="cc3001.tarea1.Castle" target="cc3001.tarea1.IBuilding">
                   <point x="76.75" y="-136.0" />
-                  <point x="1289.25" y="617.0" />
-                  <point x="1531.0" y="617.0" />
+                  <point x="1289.25" y="690.0" />
+                  <point x="1531.0" y="690.0" />
                   <point x="-27.5" y="15.5" />
                 </edge>
                 <edge source="cc3001.tarea1.SiegeUnit" target="cc3001.tarea1.AbstractUnit">
                   <point x="0.0" y="-136.0" />
-                  <point x="807.5" y="949.0" />
-                  <point x="959.6666666666666" y="949.0" />
-                  <point x="-11.333333333333371" y="15.5" />
+                  <point x="1134.5" y="1022.0" />
+                  <point x="982.3333333333334" y="1022.0" />
+                  <point x="11.333333333333371" y="15.5" />
                 </edge>
                 <edge source="cc3001.tarea1.Barracks" target="cc3001.tarea1.IBuilding">
                   <point x="76.75" y="-124.0" />
-                  <point x="1616.25" y="617.0" />
-                  <point x="1586.0" y="617.0" />
+                  <point x="1616.25" y="690.0" />
+                  <point x="1586.0" y="690.0" />
                   <point x="27.5" y="15.5" />
                 </edge>
                 <edge source="cc3001.tarea1.Villager" target="cc3001.tarea1.AbstractUnit">
                   <point x="0.0" y="-136.0" />
-                  <point x="1461.5" y="939.0" />
-                  <point x="1005.0" y="939.0" />
-                  <point x="34.0" y="15.5" />
+                  <point x="807.5" y="1022.0" />
+                  <point x="959.6666666666666" y="1022.0" />
+                  <point x="-11.333333333333371" y="15.5" />
                 </edge>
                 <edge source="cc3001.tarea1.Barracks" target="cc3001.tarea1.AbstractAttackable">
                   <point x="-76.75" y="-124.0" />
-                  <point x="1462.75" y="607.0" />
-                  <point x="1493.0" y="607.0" />
-                  <point x="45.25000000000003" y="52.0" />
+                  <point x="1462.75" y="680.0" />
+                  <point x="1493.0" y="680.0" />
+                  <point x="45.75000000000003" y="76.0" />
+                </edge>
+                <edge source="cc3001.tarea1.IBuilding" target="cc3001.tarea1.IAttackable">
+                  <point x="0.0" y="-15.5" />
+                  <point x="1558.5" y="353.0" />
+                  <point x="1549.5833333333335" y="353.0" />
+                  <point x="102.33333333333329" y="99.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.9" x="722.297619047619" y="229.66666666666669" />
-              <SelectedNodes>
-                <node>cc3001.tarea1.AbstractAttackable</node>
-              </SelectedNodes>
+              <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="875.964285714286" y="680.1785714285713" />
+              <SelectedNodes />
               <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
                 <Category>Methods</Category>
-                <Category>Properties</Category>
+                <Category>Constructors</Category>
+                <Category>Fields</Category>
                 <Category>Inner Classes</Category>
               </Categories>
               <SCOPE>All</SCOPE>
@@ -462,7 +452,7 @@
       <workItem from="1539802954509" duration="210000" />
       <workItem from="1539836881402" duration="187000" />
       <workItem from="1539837381224" duration="720000" />
-      <workItem from="1540334231145" duration="1405000" />
+      <workItem from="1540334231145" duration="1672000" />
     </task>
     <task id="LOCAL-00001" summary="Crear tests y arreglar problemas">
       <created>1539580451203</created>
@@ -619,7 +609,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27988000" />
+    <option name="totallyTimeSpent" value="28255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -983,151 +973,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IBuilding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://JAVA/cc3001.tarea1">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>cc3001.tarea1</OriginalElement>
           <nodes>
-            <node x="0.0" y="969.0">cc3001.tarea1.InfantryUnit</node>
-            <node x="903.0" y="757.5">cc3001.tarea1.AbstractUnit</node>
-            <node x="1503.5" y="544.0">cc3001.tarea1.IBuilding</node>
-            <node x="654.0" y="969.0">cc3001.tarea1.SiegeUnit</node>
-            <node x="327.0" y="969.0">cc3001.tarea1.ArcherUnit</node>
-            <node x="1635.0" y="969.0">cc3001.tarea1.CavalryUnit</node>
-            <node x="1071.0" y="129.0">cc3001.tarea1.IAttackable</node>
-            <node x="1246.25" y="0.0">cc3001.tarea1.IEnte</node>
-            <node x="1357.25" y="378.0">cc3001.tarea1.AbstractAttackable</node>
-            <node x="1308.0" y="969.0">cc3001.tarea1.Villager</node>
-            <node x="970.375" y="532.0">cc3001.tarea1.AbstractAttacker</node>
-            <node x="1059.0" y="637.0">cc3001.tarea1.Castle</node>
-            <node x="1386.0" y="649.0">cc3001.tarea1.Barracks</node>
-            <node x="981.0" y="969.0">cc3001.tarea1.Monk</node>
-            <node x="895.375" y="390.0">cc3001.tarea1.IAttacker</node>
+            <node x="1635.0" y="1042.0">cc3001.tarea1.InfantryUnit</node>
+            <node x="903.0" y="830.5">cc3001.tarea1.AbstractUnit</node>
+            <node x="1503.5" y="604.5">cc3001.tarea1.IBuilding</node>
+            <node x="981.0" y="1042.0">cc3001.tarea1.SiegeUnit</node>
+            <node x="1308.0" y="1042.0">cc3001.tarea1.ArcherUnit</node>
+            <node x="327.0" y="1042.0">cc3001.tarea1.CavalryUnit</node>
+            <node x="1293.75" y="129.0">cc3001.tarea1.IAttackable</node>
+            <node x="1355.75" y="0.0">cc3001.tarea1.IEnte</node>
+            <node x="1355.75" y="378.0">cc3001.tarea1.AbstractAttackable</node>
+            <node x="654.0" y="1042.0">cc3001.tarea1.Villager</node>
+            <node x="961.875" y="580.0">cc3001.tarea1.AbstractAttacker</node>
+            <node x="1059.0" y="710.0">cc3001.tarea1.Castle</node>
+            <node x="1386.0" y="722.0">cc3001.tarea1.Barracks</node>
+            <node x="0.0" y="1042.0">cc3001.tarea1.Monk</node>
+            <node x="891.125" y="414.5">cc3001.tarea1.IAttacker</node>
           </nodes>
           <notes />
           <edges>
             <edge source="cc3001.tarea1.AbstractAttacker" target="cc3001.tarea1.IAttacker">
-              <point x="-41.5" y="-27.5" />
-              <point x="0.0" y="40.0" />
+              <point x="-45.75" y="-40.0" />
+              <point x="0.0" y="39.5" />
             </edge>
             <edge source="cc3001.tarea1.Monk" target="cc3001.tarea1.AbstractUnit">
               <point x="0.0" y="-136.0" />
-              <point x="1134.5" y="949.0" />
-              <point x="982.3333333333334" y="949.0" />
-              <point x="11.333333333333371" y="15.5" />
+              <point x="153.5" y="1002.0" />
+              <point x="914.3333333333334" y="1002.0" />
+              <point x="-56.66666666666663" y="15.5" />
             </edge>
             <edge source="cc3001.tarea1.Castle" target="cc3001.tarea1.AbstractAttacker">
               <point x="-76.75" y="-136.0" />
-              <point x="1135.75" y="617.0" />
-              <point x="1094.875" y="617.0" />
-              <point x="41.5" y="27.5" />
+              <point x="1135.75" y="690.0" />
+              <point x="1099.125" y="690.0" />
+              <point x="45.75" y="40.0" />
             </edge>
             <edge source="cc3001.tarea1.AbstractUnit" target="cc3001.tarea1.AbstractAttacker">
               <point x="0.0" y="-15.5" />
-              <point x="971.0" y="617.0" />
-              <point x="1011.875" y="617.0" />
-              <point x="-41.5" y="27.5" />
+              <point x="971.0" y="690.0" />
+              <point x="1007.625" y="690.0" />
+              <point x="-45.75" y="40.0" />
             </edge>
             <edge source="cc3001.tarea1.IAttackable" target="cc3001.tarea1.IEnte">
               <point x="0.0" y="-99.5" />
-              <point x="1224.5" y="104.0" />
-              <point x="1282.25" y="104.0" />
-              <point x="-36.0" y="39.5" />
+              <point x="0.0" y="39.5" />
             </edge>
             <edge source="cc3001.tarea1.InfantryUnit" target="cc3001.tarea1.AbstractUnit">
               <point x="0.0" y="-136.0" />
-              <point x="153.5" y="929.0" />
-              <point x="914.3333333333334" y="929.0" />
-              <point x="-56.66666666666663" y="15.5" />
+              <point x="1788.5" y="1002.0" />
+              <point x="1027.6666666666667" y="1002.0" />
+              <point x="56.66666666666674" y="15.5" />
             </edge>
             <edge source="cc3001.tarea1.ArcherUnit" target="cc3001.tarea1.AbstractUnit">
               <point x="0.0" y="-136.0" />
-              <point x="480.5" y="939.0" />
-              <point x="937.0" y="939.0" />
-              <point x="-34.0" y="15.5" />
+              <point x="1461.5" y="1012.0" />
+              <point x="1005.0" y="1012.0" />
+              <point x="34.0" y="15.5" />
             </edge>
             <edge source="cc3001.tarea1.AbstractAttackable" target="cc3001.tarea1.IAttackable">
-              <point x="0.0" y="-52.0" />
-              <point x="1447.75" y="353.0" />
-              <point x="1301.25" y="353.0" />
-              <point x="76.75" y="99.5" />
+              <point x="0.0" y="-76.0" />
+              <point x="0.0" y="99.5" />
             </edge>
             <edge source="cc3001.tarea1.CavalryUnit" target="cc3001.tarea1.AbstractUnit">
               <point x="0.0" y="-136.0" />
-              <point x="1788.5" y="929.0" />
-              <point x="1027.6666666666667" y="929.0" />
-              <point x="56.66666666666674" y="15.5" />
-            </edge>
-            <edge source="cc3001.tarea1.IBuilding" target="cc3001.tarea1.IEnte">
-              <point x="0.0" y="-15.5" />
-              <point x="1558.5" y="104.0" />
-              <point x="1354.25" y="104.0" />
-              <point x="36.0" y="39.5" />
+              <point x="480.5" y="1012.0" />
+              <point x="937.0" y="1012.0" />
+              <point x="-34.0" y="15.5" />
             </edge>
             <edge source="cc3001.tarea1.AbstractAttacker" target="cc3001.tarea1.AbstractAttackable">
-              <point x="41.5" y="-27.5" />
-              <point x="1094.875" y="507.0" />
-              <point x="1402.5" y="507.0" />
-              <point x="-45.25" y="52.0" />
+              <point x="45.75" y="-40.0" />
+              <point x="1099.125" y="555.0" />
+              <point x="1401.5" y="555.0" />
+              <point x="-45.75" y="76.0" />
             </edge>
             <edge source="cc3001.tarea1.IAttacker" target="cc3001.tarea1.IAttackable">
-              <point x="0.0" y="-40.0" />
-              <point x="1011.875" y="353.0" />
-              <point x="1147.75" y="353.0" />
-              <point x="-76.75" y="99.5" />
+              <point x="0.0" y="-39.5" />
+              <point x="1007.625" y="353.0" />
+              <point x="1344.9166666666667" y="353.0" />
+              <point x="-102.33333333333326" y="99.5" />
             </edge>
             <edge source="cc3001.tarea1.Castle" target="cc3001.tarea1.IBuilding">
               <point x="76.75" y="-136.0" />
-              <point x="1289.25" y="617.0" />
-              <point x="1531.0" y="617.0" />
+              <point x="1289.25" y="690.0" />
+              <point x="1531.0" y="690.0" />
               <point x="-27.5" y="15.5" />
             </edge>
             <edge source="cc3001.tarea1.SiegeUnit" target="cc3001.tarea1.AbstractUnit">
               <point x="0.0" y="-136.0" />
-              <point x="807.5" y="949.0" />
-              <point x="959.6666666666666" y="949.0" />
-              <point x="-11.333333333333371" y="15.5" />
+              <point x="1134.5" y="1022.0" />
+              <point x="982.3333333333334" y="1022.0" />
+              <point x="11.333333333333371" y="15.5" />
             </edge>
             <edge source="cc3001.tarea1.Barracks" target="cc3001.tarea1.IBuilding">
               <point x="76.75" y="-124.0" />
-              <point x="1616.25" y="617.0" />
-              <point x="1586.0" y="617.0" />
+              <point x="1616.25" y="690.0" />
+              <point x="1586.0" y="690.0" />
               <point x="27.5" y="15.5" />
             </edge>
             <edge source="cc3001.tarea1.Villager" target="cc3001.tarea1.AbstractUnit">
               <point x="0.0" y="-136.0" />
-              <point x="1461.5" y="939.0" />
-              <point x="1005.0" y="939.0" />
-              <point x="34.0" y="15.5" />
+              <point x="807.5" y="1022.0" />
+              <point x="959.6666666666666" y="1022.0" />
+              <point x="-11.333333333333371" y="15.5" />
             </edge>
             <edge source="cc3001.tarea1.Barracks" target="cc3001.tarea1.AbstractAttackable">
               <point x="-76.75" y="-124.0" />
-              <point x="1462.75" y="607.0" />
-              <point x="1493.0" y="607.0" />
-              <point x="45.25000000000003" y="52.0" />
+              <point x="1462.75" y="680.0" />
+              <point x="1493.0" y="680.0" />
+              <point x="45.75000000000003" y="76.0" />
+            </edge>
+            <edge source="cc3001.tarea1.IBuilding" target="cc3001.tarea1.IAttackable">
+              <point x="0.0" y="-15.5" />
+              <point x="1558.5" y="353.0" />
+              <point x="1549.5833333333335" y="353.0" />
+              <point x="102.33333333333329" y="99.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.9" x="722.297619047619" y="229.66666666666669" />
-          <SelectedNodes>
-            <node>cc3001.tarea1.AbstractAttackable</node>
-          </SelectedNodes>
+          <settings layout="Hierarchic Group" zoom="0.40000000000000013" x="875.964285714286" y="680.1785714285713" />
+          <SelectedNodes />
           <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
             <Category>Methods</Category>
-            <Category>Properties</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
             <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IBuilding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
         </state>
       </provider>
     </entry>
