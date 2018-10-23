@@ -2,7 +2,7 @@ package cc3001.tarea1;
 
 /**
  * Barracks is the class that represents all barracks in the game.
- * Barracks extends AbstractAttackable, and implements the attackedByInfantry, attackedByArcher,
+ * Barracks extends IAttackable, and implements the attackedByInfantry, attackedByArcher,
  * attackedByCavalry, attackedBySiege, attackedByMonk, attackedByVillager and attackedByCastle methods.
  *
  * @author Hojin Kang
@@ -30,10 +30,10 @@ public class Barracks extends AbstractAttackable implements IBuilding {
     /**
      * Method that describes that the object is being attacked by infantry.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByInfantry(AbstractAttacker attacker) {
+    public void attackedByInfantry(IAttacker attacker) {
         if(isAlive) {
             hp -= 0.7 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
@@ -44,10 +44,10 @@ public class Barracks extends AbstractAttackable implements IBuilding {
     /**
      * Method that describes that the object is being attacked by an archer.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByArcher(AbstractAttacker attacker) {
+    public void attackedByArcher(IAttacker attacker) {
         if(isAlive) {
             hp -= 0.7 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
@@ -58,10 +58,10 @@ public class Barracks extends AbstractAttackable implements IBuilding {
     /**
      * Method that describes that the object is being attacked by cavalry.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByCavalry(AbstractAttacker attacker) {
+    public void attackedByCavalry(IAttacker attacker) {
         if(isAlive) {
             hp -= 0.7 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
@@ -72,10 +72,10 @@ public class Barracks extends AbstractAttackable implements IBuilding {
     /**
      * Method that describes that the object is being attacked by siege.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedBySiege(AbstractAttacker attacker) {
+    public void attackedBySiege(IAttacker attacker) {
         if(isAlive) {
             hp -= 2.0 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;
@@ -86,19 +86,19 @@ public class Barracks extends AbstractAttackable implements IBuilding {
     /**
      * Method that describes that the object is being attacked by a monk.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByMonk(AbstractAttacker attacker) {
+    public void attackedByMonk(IAttacker attacker) {
     }
 
     /**
      * Method that describes that the object is being attacked by a villager.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByVillager(AbstractAttacker attacker) {
+    public void attackedByVillager(IAttacker attacker) {
         if(isAlive) {
             hp += 0.7*attacker.getAttack();
             hp = hp > maxHp ? maxHp : hp;
@@ -108,10 +108,10 @@ public class Barracks extends AbstractAttackable implements IBuilding {
     /**
      * Method that describes that the object is being attacked by a castle.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByCastle(AbstractAttacker attacker) {
+    public void attackedByCastle(IAttacker attacker) {
         if(isAlive) {
             hp -= 0.7 * attacker.getAttack();
             hp = hp > 0 ? hp : 0;

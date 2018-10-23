@@ -9,14 +9,14 @@ import static org.junit.Assert.assertFalse;
 public class EraImperiosTest {
 
     // Declare the objects to use
-    AbstractAttacker infantry;
-    AbstractAttacker archer;
-    AbstractAttacker cavalry;
-    AbstractAttacker siege;
-    AbstractAttacker monk;
-    AbstractAttacker villager;
-    AbstractAttacker castle;
-    AbstractAttackable barracks;
+    IAttacker infantry;
+    IAttacker archer;
+    IAttacker cavalry;
+    IAttacker siege;
+    IAttacker monk;
+    IAttacker villager;
+    IAttacker castle;
+    IAttackable barracks;
 
     // Set up the Test Cases
     @Before public void setUp() {
@@ -214,7 +214,7 @@ public class EraImperiosTest {
 
         // Attack siege
         // First create a new siege, so that the old one doesn't die
-        AbstractAttacker newSiege = new SiegeUnit(50, 10);
+        IAttacker newSiege = new SiegeUnit(50, 10);
         newSiege.attack(siege);
         assertEquals(60, siege.getHP(), 0.01);
 
@@ -343,7 +343,7 @@ public class EraImperiosTest {
     // Test villager healing
     @Test public void villagerHealingTest() {
         // Create a new siege unit to attack
-        AbstractAttacker newSiege = new SiegeUnit(10, 10);
+        IAttacker newSiege = new SiegeUnit(10, 10);
 
         // Attack the old siege unit
         newSiege.attack(siege);
@@ -369,8 +369,8 @@ public class EraImperiosTest {
 
     // Max HP test
     @Test public void maxHPTest() {
-        AbstractAttacker superMonk = new Monk(25, 5000);
-        AbstractAttacker superVillager = new Villager(25, 100000);
+        IAttacker superMonk = new Monk(25, 5000);
+        IAttacker superVillager = new Villager(25, 100000);
 
         // Max HP for archer
         superMonk.attack(archer);
@@ -401,7 +401,7 @@ public class EraImperiosTest {
         assertEquals(1200, barracks.getHP(), 0.01);
 
         // Change the starting HP
-        AbstractAttackable newHPVillager = new Villager(2000, 10);
+        IAttackable newHPVillager = new Villager(2000, 10);
         superMonk.attack(newHPVillager);
         assertEquals(4000, newHPVillager.getHP(), 0.01);
     }
@@ -409,7 +409,7 @@ public class EraImperiosTest {
     // Death test
     @Test public void deathTest() {
         // Create a instant kill class
-        AbstractAttacker killer = new SiegeUnit(100, 10000);
+        IAttacker killer = new SiegeUnit(100, 10000);
 
         // Kill all characters
         killer.attack(archer);
@@ -488,14 +488,14 @@ public class EraImperiosTest {
     // Non Default Creation Test
     @Test public void nonDefaultCreationTest() {
         // Create the test cases
-        AbstractAttacker archerTest = new ArcherUnit(100, 50);
-        AbstractAttacker infantryTest = new InfantryUnit(100, 50);
-        AbstractAttacker cavalryTest = new CavalryUnit(100, 50);
-        AbstractAttacker siegeTest = new SiegeUnit(100, 50);
-        AbstractAttacker monkTest = new Monk(100, 50);
-        AbstractAttacker villagerTest = new Villager(100, 50);
-        AbstractAttacker castleTest = new Castle(100, 50);
-        AbstractAttackable barracksTest = new Barracks(100);
+        IAttacker archerTest = new ArcherUnit(100, 50);
+        IAttacker infantryTest = new InfantryUnit(100, 50);
+        IAttacker cavalryTest = new CavalryUnit(100, 50);
+        IAttacker siegeTest = new SiegeUnit(100, 50);
+        IAttacker monkTest = new Monk(100, 50);
+        IAttacker villagerTest = new Villager(100, 50);
+        IAttacker castleTest = new Castle(100, 50);
+        IAttackable barracksTest = new Barracks(100);
 
         //Test for correct HP
         assertEquals(100, archerTest.getHP(), 0.01);
@@ -520,14 +520,14 @@ public class EraImperiosTest {
     // Creation with parameters less than or equal to zero
     @Test public void lessThanZeroCreationTest() {
         // Create objects with parameters under zero
-        AbstractAttacker archerTest = new ArcherUnit(-100, -100);
-        AbstractAttacker infantryTest = new InfantryUnit(-100, -100);
-        AbstractAttacker cavalryTest = new CavalryUnit(-100, -100);
-        AbstractAttacker siegeTest = new SiegeUnit(-100, -100);
-        AbstractAttacker monkTest = new Monk(-100, -100);
-        AbstractAttacker villagerTest = new Villager(-100, -100);
-        AbstractAttacker castleTest = new Castle(-100, -100);
-        AbstractAttackable barracksTest = new Barracks(-100);
+        IAttacker archerTest = new ArcherUnit(-100, -100);
+        IAttacker infantryTest = new InfantryUnit(-100, -100);
+        IAttacker cavalryTest = new CavalryUnit(-100, -100);
+        IAttacker siegeTest = new SiegeUnit(-100, -100);
+        IAttacker monkTest = new Monk(-100, -100);
+        IAttacker villagerTest = new Villager(-100, -100);
+        IAttacker castleTest = new Castle(-100, -100);
+        IAttackable barracksTest = new Barracks(-100);
 
         // Test for HP values
         assertEquals(0, archerTest.getHP(), 0.01);

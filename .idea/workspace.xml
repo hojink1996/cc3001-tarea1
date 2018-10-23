@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63e284ea-1a1e-43df-8796-6247d54a221a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cc3001/tarea1/IAttackable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cc3001/tarea1/IAttacker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttackable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttackable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttacker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/ArcherUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/ArcherUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/Barracks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/Barracks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/Castle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/Castle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/CavalryUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/CavalryUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/InfantryUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/InfantryUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/Monk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/Monk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/SiegeUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/SiegeUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cc3001/tarea1/Villager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cc3001/tarea1/Villager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tarea1.uml" beforeDir="false" afterPath="$PROJECT_DIR$/tarea1.uml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/EraImperiosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/EraImperiosTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,40 +26,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Tarea_1$EraImperiosTest.ic" NAME="EraImperiosTest Coverage Results" MODIFIED="1539659077548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Tarea_1$EraImperiosTest.ic" NAME="EraImperiosTest Coverage Results" MODIFIED="1539663454294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="235" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1556652163">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="110" />
-          <entry key="tarea1" value="1" />
+          <entry key="java" value="137" />
+          <entry key="tarea1" value="2" />
+          <entry key="uml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="110" />
-          <entry key="UML" value="1" />
+          <entry key="JAVA" value="137" />
+          <entry key="UML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10761" />
-          <entry key="txt" value="457" />
+          <entry key="java" value="14858" />
+          <entry key="txt" value="522" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10761" />
-          <entry key="PLAIN_TEXT" value="457" />
+          <entry key="JAVA" value="14858" />
+          <entry key="PLAIN_TEXT" value="522" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -56,39 +77,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/Castle.java">
+        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttackable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/CavalryUnit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IEnte.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IBuilding.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -96,35 +90,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/InfantryUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-645">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="-677">
+              <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+              <folding>
+                <element signature="e#1329#1330#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IAttackable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IBuilding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/EraImperiosTest.java">
+        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IAttacker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
+            <state relative-caret-position="60">
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttacker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#setUp#0;class#EraImperiosTest#0" />
-                <element signature="method#defaultHPTest#0;class#EraImperiosTest#0" />
-                <element signature="method#defaultAttackTest#0;class#EraImperiosTest#0" />
-                <element signature="method#defaultAliveTest#0;class#EraImperiosTest#0" />
-                <element signature="method#simpleAttackTest#0;class#EraImperiosTest#0" />
-                <element signature="method#infantryAttackTest#0;class#EraImperiosTest#0" />
-                <element signature="method#archerAttackTest#0;class#EraImperiosTest#0" />
-                <element signature="method#cavalryAttackTest#0;class#EraImperiosTest#0" />
-                <element signature="method#siegeAttackTest#0;class#EraImperiosTest#0" />
-                <element signature="method#monkAttackTest#0;class#EraImperiosTest#0" />
-                <element signature="method#vailAttackTest#0;class#EraImperiosTest#0" />
-                <element signature="method#castleAttackTest#0;class#EraImperiosTest#0" />
-                <element signature="method#maxHPTest#0;class#EraImperiosTest#0" />
-                <element signature="method#deathTest#0;class#EraImperiosTest#0" />
-                <element signature="method#nonDefaultCreationTest#0;class#EraImperiosTest#0" />
-                <element signature="method#lessThanZeroCreationTest#0;class#EraImperiosTest#0" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,8 +143,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/ArcherUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-210">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="404">
+              <caret line="34" column="43" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="43" />
+              <folding>
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1031#1032#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/Barracks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1111">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/Castle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/CavalryUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1860">
+              <caret line="128" column="7" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -144,19 +185,23 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>IEnte</find>
-      <find>AbstractAttackable</find>
       <find>AbstractAttaker</find>
+      <find>AbstractAttackable</find>
+      <find>AbstractAttacker</find>
+      <find>AbstractATtackable</find>
     </findStrings>
     <replaceStrings>
       <replace>AbstractAttacker</replace>
+      <replace>IAttackable</replace>
+      <replace>IAttacker</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -180,18 +225,22 @@
         <option value="$PROJECT_DIR$/src/Monk.java" />
         <option value="$PROJECT_DIR$/src/SiegeUnit.java" />
         <option value="$PROJECT_DIR$/src/Villager.java" />
-        <option value="$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttackable.java" />
-        <option value="$PROJECT_DIR$/src/cc3001/tarea1/ArcherUnit.java" />
-        <option value="$PROJECT_DIR$/src/cc3001/tarea1/Barracks.java" />
-        <option value="$PROJECT_DIR$/src/cc3001/tarea1/Castle.java" />
+        <option value="$PROJECT_DIR$/src/cc3001/tarea1/AbstractUnit.java" />
         <option value="$PROJECT_DIR$/src/cc3001/tarea1/CavalryUnit.java" />
-        <option value="$PROJECT_DIR$/src/cc3001/tarea1/IEnte.java" />
         <option value="$PROJECT_DIR$/src/cc3001/tarea1/IBuilding.java" />
-        <option value="$PROJECT_DIR$/src/cc3001/tarea1/InfantryUnit.java" />
+        <option value="$PROJECT_DIR$/src/cc3001/tarea1/IEnte.java" />
         <option value="$PROJECT_DIR$/src/cc3001/tarea1/Monk.java" />
         <option value="$PROJECT_DIR$/src/cc3001/tarea1/SiegeUnit.java" />
         <option value="$PROJECT_DIR$/src/cc3001/tarea1/Villager.java" />
         <option value="$PROJECT_DIR$/test/EraImperiosTest.java" />
+        <option value="$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttackable.java" />
+        <option value="$PROJECT_DIR$/src/cc3001/tarea1/InfantryUnit.java" />
+        <option value="$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttacker.java" />
+        <option value="$PROJECT_DIR$/src/cc3001/tarea1/ArcherUnit.java" />
+        <option value="$PROJECT_DIR$/src/cc3001/tarea1/Castle.java" />
+        <option value="$PROJECT_DIR$/src/cc3001/tarea1/Barracks.java" />
+        <option value="$PROJECT_DIR$/src/cc3001/tarea1/IAttackable.java" />
+        <option value="$PROJECT_DIR$/src/cc3001/tarea1/IAttacker.java" />
       </list>
     </option>
   </component>
@@ -201,7 +250,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="927" />
@@ -215,13 +264,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Tarea 1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tarea1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tarea 1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tarea1" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Tarea 1" type="b2602c69:ProjectViewProjectNode" />
@@ -243,6 +296,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -253,11 +307,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -328,7 +384,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539574659977</updated>
-      <workItem from="1539574662888" duration="20037000" />
+      <workItem from="1539574662888" duration="24844000" />
+      <workItem from="1539717212971" duration="622000" />
+      <workItem from="1539802954509" duration="210000" />
+      <workItem from="1539836881402" duration="187000" />
+      <workItem from="1539837381224" duration="720000" />
+      <workItem from="1540334231145" duration="1253000" />
     </task>
     <task id="LOCAL-00001" summary="Crear tests y arreglar problemas">
       <created>1539580451203</created>
@@ -428,19 +489,24 @@
       <option name="project" value="LOCAL" />
       <updated>1539663056069</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Agregar test para villager curando siege, castle y barracks">
+      <created>1539663434698</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1539663434698</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Agregar comentarios">
+      <created>1539667697720</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1539667697720</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EraImperiosTest - 2018.10.16 at 01h 06m 11s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EraImperiosTest - 2018.10.16 at 01h 06m 57s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EraImperiosTest - 2018.10.16 at 01h 07m 09s.xml">
-      <configuration name="EraImperiosTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EraImperiosTest - 2018.10.16 at 01h 07m 28s.xml">
       <configuration name="EraImperiosTest" configurationId="JUnit" />
     </history-entry>
@@ -462,41 +528,79 @@
     <history-entry file="EraImperiosTest - 2018.10.16 at 01h 16m 40s.xml">
       <configuration name="EraImperiosTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EraImperiosTest - 2018.10.16 at 01h 16m 55s.xml">
+      <configuration name="EraImperiosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EraImperiosTest - 2018.10.16 at 01h 17m 35s.xml">
+      <configuration name="EraImperiosTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EraImperiosTest - 2018.10.18 at 01h 36m 52s.xml">
+      <configuration name="EraImperiosTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20037000" />
+    <option name="totallyTimeSpent" value="27836000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="927" height="1055" extended-state="4" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Learn" weight="0.32982844" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.50056756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.257886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32972974" />
-      <window_info anchor="bottom" id="Messages" weight="0.32972974" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Learn" order="4" weight="0.32982844" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32972974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32972974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32982844" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Inspection Results" order="9" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32972974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32982844" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Learn" order="2" weight="0.32982844" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.24405092" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32972974" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.32982844" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -519,7 +623,9 @@
     <MESSAGE value="Agregar test para ataque (cura) de monk" />
     <MESSAGE value="Agregar test para ataque de villager" />
     <MESSAGE value="Agregar test para ataque de castle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregar test para ataque de castle" />
+    <MESSAGE value="Agregar test para villager curando siege, castle y barracks" />
+    <MESSAGE value="Agregar comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregar comentarios" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/Assert.class">
@@ -529,77 +635,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Baracks.java">
+    <entry file="file://$PROJECT_DIR$/src/Baracks.java" />
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/Monk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttacker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/AbstractUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttackable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/Barracks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="418">
+          <caret line="119" column="7" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
           <folding>
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/Castle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/CavalryUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IEnte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IBuilding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/SiegeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="538">
+          <caret line="123" column="7" selection-start-line="123" selection-start-column="7" selection-end-line="123" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -625,14 +676,14 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.3000000000000003" x="1675.3846153846152" y="648.0769230769231" />
+          <settings layout="Hierarchic Group" zoom="1.1" x="1684.0" y="378.0" />
           <SelectedNodes />
           <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
             <Category>Methods</Category>
             <Category>Properties</Category>
             <Category>Inner Classes</Category>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -641,36 +692,154 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/Villager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/ArcherUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/Monk.java">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/tarea1.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <ID>JAVA</ID>
+          <OriginalElement>cc3001.tarea1</OriginalElement>
+          <nodes>
+            <node x="0.0" y="914.0">cc3001.tarea1.InfantryUnit</node>
+            <node x="1068.0" y="702.5">cc3001.tarea1.AbstractUnit</node>
+            <node x="1751.0" y="476.5">cc3001.tarea1.IBuilding</node>
+            <node x="1910.0" y="914.0">cc3001.tarea1.SiegeUnit</node>
+            <node x="1146.0" y="914.0">cc3001.tarea1.ArcherUnit</node>
+            <node x="382.0" y="914.0">cc3001.tarea1.CavalryUnit</node>
+            <node x="1502.25" y="0.0">cc3001.tarea1.IEnte</node>
+            <node x="1297.5" y="129.0">cc3001.tarea1.AbstractAttackable</node>
+            <node x="1528.0" y="914.0">cc3001.tarea1.Villager</node>
+            <node x="1081.25" y="452.0">cc3001.tarea1.AbstractAttacker</node>
+            <node x="1224.0" y="582.0">cc3001.tarea1.Castle</node>
+            <node x="1606.0" y="594.0">cc3001.tarea1.Barracks</node>
+            <node x="764.0" y="914.0">cc3001.tarea1.Monk</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cc3001.tarea1.Monk" target="cc3001.tarea1.AbstractUnit">
+              <point x="0.0" y="-136.0" />
+              <point x="945.0" y="894.0" />
+              <point x="1124.6666666666667" y="894.0" />
+              <point x="-11.333333333333258" y="15.5" />
+            </edge>
+            <edge source="cc3001.tarea1.Castle" target="cc3001.tarea1.AbstractAttacker">
+              <point x="-90.5" y="-136.0" />
+              <point x="1314.5" y="562.0" />
+              <point x="1297.25" y="562.0" />
+              <point x="72.0" y="40.0" />
+            </edge>
+            <edge source="cc3001.tarea1.AbstractUnit" target="cc3001.tarea1.AbstractAttacker">
+              <point x="0.0" y="-15.5" />
+              <point x="1136.0" y="562.0" />
+              <point x="1153.25" y="562.0" />
+              <point x="-72.0" y="40.0" />
+            </edge>
+            <edge source="cc3001.tarea1.InfantryUnit" target="cc3001.tarea1.AbstractUnit">
+              <point x="0.0" y="-136.0" />
+              <point x="181.0" y="874.0" />
+              <point x="1079.3333333333333" y="874.0" />
+              <point x="-56.66666666666674" y="15.5" />
+            </edge>
+            <edge source="cc3001.tarea1.ArcherUnit" target="cc3001.tarea1.AbstractUnit">
+              <point x="0.0" y="-136.0" />
+              <point x="1327.0" y="894.0" />
+              <point x="1147.3333333333333" y="894.0" />
+              <point x="11.333333333333258" y="15.5" />
+            </edge>
+            <edge source="cc3001.tarea1.CavalryUnit" target="cc3001.tarea1.AbstractUnit">
+              <point x="0.0" y="-136.0" />
+              <point x="563.0" y="884.0" />
+              <point x="1102.0" y="884.0" />
+              <point x="-34.0" y="15.5" />
+            </edge>
+            <edge source="cc3001.tarea1.IBuilding" target="cc3001.tarea1.IEnte">
+              <point x="0.0" y="-15.5" />
+              <point x="1806.0" y="104.0" />
+              <point x="1610.25" y="104.0" />
+              <point x="36.0" y="39.5" />
+            </edge>
+            <edge source="cc3001.tarea1.AbstractAttacker" target="cc3001.tarea1.AbstractAttackable">
+              <point x="0.0" y="-40.0" />
+              <point x="1225.25" y="427.0" />
+              <point x="1388.0" y="427.0" />
+              <point x="-90.5" y="136.5" />
+            </edge>
+            <edge source="cc3001.tarea1.Castle" target="cc3001.tarea1.IBuilding">
+              <point x="90.5" y="-136.0" />
+              <point x="1495.5" y="562.0" />
+              <point x="1778.5" y="562.0" />
+              <point x="-27.5" y="15.5" />
+            </edge>
+            <edge source="cc3001.tarea1.SiegeUnit" target="cc3001.tarea1.AbstractUnit">
+              <point x="0.0" y="-136.0" />
+              <point x="2091.0" y="874.0" />
+              <point x="1192.6666666666667" y="874.0" />
+              <point x="56.66666666666674" y="15.5" />
+            </edge>
+            <edge source="cc3001.tarea1.Barracks" target="cc3001.tarea1.IBuilding">
+              <point x="90.5" y="-124.0" />
+              <point x="1877.5" y="562.0" />
+              <point x="1833.5" y="562.0" />
+              <point x="27.5" y="15.5" />
+            </edge>
+            <edge source="cc3001.tarea1.AbstractAttackable" target="cc3001.tarea1.IEnte">
+              <point x="0.0" y="-136.5" />
+              <point x="1478.5" y="104.0" />
+              <point x="1538.25" y="104.0" />
+              <point x="-36.0" y="39.5" />
+            </edge>
+            <edge source="cc3001.tarea1.Villager" target="cc3001.tarea1.AbstractUnit">
+              <point x="1.1368683772161603E-13" y="-136.0" />
+              <point x="1709.0" y="884.0" />
+              <point x="1170.0" y="884.0" />
+              <point x="34.0" y="15.5" />
+            </edge>
+            <edge source="cc3001.tarea1.Barracks" target="cc3001.tarea1.AbstractAttackable">
+              <point x="-90.5" y="-124.0" />
+              <point x="1696.5" y="552.0" />
+              <point x="1722.75" y="552.0" />
+              <point x="1722.75" y="427.0" />
+              <point x="1569.0" y="427.0" />
+              <point x="90.5" y="136.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1" x="1797.0" y="452.0" />
+          <SelectedNodes>
+            <node>cc3001.tarea1.Monk</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/InfantryUnit.java">
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/AbstractUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-645">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IEnte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/EraImperiosTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
+        <state relative-caret-position="1035">
+          <caret line="520" selection-start-line="520" selection-end-line="520" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setUp#0;class#EraImperiosTest#0" />
@@ -683,13 +852,96 @@
             <element signature="method#cavalryAttackTest#0;class#EraImperiosTest#0" />
             <element signature="method#siegeAttackTest#0;class#EraImperiosTest#0" />
             <element signature="method#monkAttackTest#0;class#EraImperiosTest#0" />
-            <element signature="method#vailAttackTest#0;class#EraImperiosTest#0" />
+            <element signature="method#villagerAttackTest#0;class#EraImperiosTest#0" />
             <element signature="method#castleAttackTest#0;class#EraImperiosTest#0" />
+            <element signature="method#villagerHealingTest#0;class#EraImperiosTest#0" />
             <element signature="method#maxHPTest#0;class#EraImperiosTest#0" />
             <element signature="method#deathTest#0;class#EraImperiosTest#0" />
             <element signature="method#nonDefaultCreationTest#0;class#EraImperiosTest#0" />
             <element signature="method#lessThanZeroCreationTest#0;class#EraImperiosTest#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/InfantryUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-677">
+          <caret line="63" column="45" lean-forward="true" selection-start-line="63" selection-start-column="45" selection-end-line="63" selection-end-column="45" />
+          <folding>
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttackable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/AbstractAttacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/ArcherUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="43" />
+          <folding>
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/Castle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/CavalryUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="128" column="7" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/Barracks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1111">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IBuilding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IAttackable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cc3001/tarea1/IAttacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -757,6 +1009,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

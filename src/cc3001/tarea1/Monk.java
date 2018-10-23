@@ -32,20 +32,20 @@ public class Monk extends AbstractUnit {
     /**
      * Method that indicates that the monk is attacking an attackable object.
      *
-     * @param attackable        AbstractAttackable object corresponding to the object being attacked.
+     * @param attackable        IAttackable object corresponding to the object being attacked.
      */
     @Override
-    public void attack(AbstractAttackable attackable) {
+    public void attack(IAttackable attackable) {
         if(isAlive) {attackable.attackedByMonk(this);}
     }
 
     /**
      * Method that describes that the object is being attacked by infantry.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByInfantry(AbstractAttacker attacker) {
+    public void attackedByInfantry(IAttacker attacker) {
         if(isAlive) {
             hp = 0;
             isAlive = false;
@@ -55,10 +55,10 @@ public class Monk extends AbstractUnit {
     /**
      * Method that describes that the object is being attacked by an archer.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByArcher(AbstractAttacker attacker) {
+    public void attackedByArcher(IAttacker attacker) {
         if(isAlive) {
             hp = 0;
             isAlive = false;
@@ -68,10 +68,10 @@ public class Monk extends AbstractUnit {
     /**
      * Method that describes that the object is being attacked by cavalry.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByCavalry(AbstractAttacker attacker) {
+    public void attackedByCavalry(IAttacker attacker) {
         if(isAlive) {
             hp = 0;
             isAlive = false;
@@ -81,10 +81,10 @@ public class Monk extends AbstractUnit {
     /**
      * Method that describes that the object is being attacked by siege.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedBySiege(AbstractAttacker attacker) {
+    public void attackedBySiege(IAttacker attacker) {
         if(isAlive) {
             hp = 0;
             isAlive = false;
@@ -94,10 +94,10 @@ public class Monk extends AbstractUnit {
     /**
      * Method that describes that the object is being attacked by a monk.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByMonk(AbstractAttacker attacker) {
+    public void attackedByMonk(IAttacker attacker) {
         if(isAlive) {
             hp += 0.5 * attacker.getAttack();
             hp = hp > maxHp ? maxHp : hp;
@@ -107,19 +107,19 @@ public class Monk extends AbstractUnit {
     /**
      * Method that describes that the object is being attacked by a villager.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByVillager(AbstractAttacker attacker) {
+    public void attackedByVillager(IAttacker attacker) {
     }
 
     /**
      * Method that describes that the object is being attacked by a castle.
      *
-     * @param attacker      AbstractAttacker type object corresponding to the object that is attacking.
+     * @param attacker      IAttacker type object corresponding to the object that is attacking.
      */
     @Override
-    public void attackedByCastle(AbstractAttacker attacker) {
+    public void attackedByCastle(IAttacker attacker) {
         if(isAlive) {
             hp = 0;
             isAlive = false;
